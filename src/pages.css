@@ -1,0 +1,403 @@
+.page1{
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.page1::selection{
+    background-color: black;
+    color: royalblue;
+}
+.bluetext{
+    color: white;
+    font-weight: 600;
+    border: 2px solid royalblue;
+    border-radius: 100px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: royalblue;
+}
+.headingpage1{
+    width: 80%;
+    height: auto;
+    padding-top: 130px;
+    padding-bottom: 40px;
+    /* background-color: blue; */
+    font-size: 80px;
+    font-weight: 600;
+    text-align: center;
+    /* background-color: aqua; */
+}
+.collegemarquee{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.collegeimage{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.college1{
+    background: url('/college1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college2{
+    background: url('/college2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college3{
+    background: url('/college3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college4{
+    background: url('/college4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college5{
+    background: url('/college5.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college6{
+    background: url('/college6.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.searchdivpage1{
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Sendbutton*/
+.group {
+    display: flex;
+    line-height: 36px;
+    align-items: center;
+    position: relative;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+  }
+  
+  .input {
+    width: 100%;
+    height: 60px;
+    line-height: 28px;
+    padding: 0 1rem;
+    padding-left: 3rem;
+    border: 2px solid transparent;
+    border-radius: 40px;
+    outline: none;
+    background-color: #e0e0e0;
+    color: royalblue;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input::placeholder {
+    color: #9e9ea7;
+  }
+  
+  .input:focus,
+  input:hover {
+    outline: none;
+    border-color: royalblue;
+    background-color: #fff;
+    box-shadow: 0 0 0 4px rgb(234 226 183 / 10%);
+  }
+  
+  .icon {
+    position: absolute;
+    left: 1rem;
+    fill: royalblue;
+    font-weight: 600;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+
+
+@media (max-width:1000px) and (min-width:600px){
+    .bluetext{
+        color: white;
+        font-weight: 600;
+        border: 2px solid royalblue;
+        border-radius: 100px;
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        background-color: royalblue;
+    }
+    .headingpage1{
+        width: 80%;
+        height: auto;
+        padding-top: 130px;
+        padding-bottom: 40px;
+        /* background-color: blue; */
+        font-size: 60px;
+        font-weight: 500;
+        text-align: center;
+        /* background-color: aqua; */
+    }
+    .collegemarquee{
+        width: 100%;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .collegeimage{
+        width: 300px;
+        height: 300px;
+        border-radius: 20px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .group {
+        display: flex;
+        line-height: 36px;
+        align-items: center;
+        position: relative;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Poppins';
+      }
+      
+      .input {
+        width: 100%;
+        height: 60px;
+        line-height: 28px;
+        padding: 0 1rem;
+        padding-left: 3rem;
+        border: 2px solid transparent;
+        border-radius: 40px;
+        outline: none;
+        background-color: #e0e0e0;
+        color: royalblue;
+        font-size: 18px;
+        font-weight: 600;
+        transition: 0.3s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .input::placeholder {
+        color: #9e9ea7;
+      }
+      
+      .input:focus,
+      input:hover {
+        outline: none;
+        border-color: royalblue;
+        background-color: #fff;
+        box-shadow: 0 0 0 4px rgb(234 226 183 / 10%);
+      }
+      
+      .icon {
+        position: absolute;
+        left: 1rem;
+        fill: royalblue;
+        font-weight: 600;
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+      
+}
+
+@media (max-width:600px){
+    .bluetext{
+        color: white;
+        font-weight: 600;
+        border: 2px solid royalblue;
+        border-radius: 100px;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        background-color: royalblue;
+    }
+    .headingpage1{
+        width: 90%;
+        height: auto;
+        padding-top: 130px;
+        padding-bottom: 40px;
+        /* background-color: blue; */
+        font-size: 40px;
+        font-weight: 500;
+        text-align: center;
+        /* background-color: aqua; */
+    }
+    .collegemarquee{
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collegeimage{
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .group {
+        display: flex;
+        line-height: 36px;
+        align-items: center;
+        position: relative;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Poppins';
+      }
+      
+      .input {
+        width: 100%;
+        height: 60px;
+        line-height: 28px;
+        padding: 0 1rem;
+        padding-left: 3rem;
+        border: 2px solid transparent;
+        border-radius: 40px;
+        outline: none;
+        background-color: #e0e0e0;
+        color: royalblue;
+        font-size: 18px;
+        font-weight: 600;
+        transition: 0.3s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .input::placeholder {
+        color: #9e9ea7;
+      }
+      
+      .input:focus,
+      input:hover {
+        outline: none;
+        border-color: royalblue;
+        background-color: #fff;
+        box-shadow: 0 0 0 4px rgb(234 226 183 / 10%);
+      }
+      
+      .icon {
+        position: absolute;
+        left: 1rem;
+        fill: royalblue;
+        font-weight: 600;
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+      
+}
+
+/*Page2*/
+.page2{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.banner1{
+    width: 80%;
+    height: 300px;
+    border-radius: 30px;
+    background: url('/gradient1.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentdiv1{
+    width: 30%;
+    height: 100%;
+    /* background-color: #9e9ea7; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.iconpage2image{
+    width: 60px;
+}
+.headingpage2{
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+}
+.subheadpage2{
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+
+@media (max-width:600px){
+    .banner1{
+        width: 90%;
+        height: 200px;
+        border-radius: 15px;
+        background: url('/gradient1.png');
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentdiv1{
+        width: 30%;
+        height: 100%;
+        /* background-color: #9e9ea7; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .iconpage2image{
+        width: 30px;
+    }
+    .headingpage2{
+        font-size: 20px;
+        color: white;
+        font-weight: 600;
+    }
+    .subheadpage2{
+        font-size: 12px;
+        color: white;
+        font-weight: 400;
+    }
+}
