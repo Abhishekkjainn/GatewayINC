@@ -7,6 +7,9 @@ body{
   background-color: black;
   color: royalblue;
 }
+::-webkit-scrollbar{
+  width: 0px;
+}
 
 
 /*Header*/
@@ -213,7 +216,7 @@ body{
 
 
 /*Study Abroad Div underbanner*/
-.sabanner,.tpbanner{
+.sabanner,.tpbanner,.sbanner{
   width: 80%;
   display: flex;
   justify-content: center;

@@ -401,3 +401,673 @@
         font-weight: 400;
     }
 }
+
+.page3{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f4f4f4;
+}
+.page3heading{
+    width: 80%;
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+.contentpage3{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagecontentpage3{
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+}
+.textcontentpage3{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tagspage3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.circletag{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: royalblue;
+    margin-right: 10px;
+}
+.tag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 15px;
+    border: 2.5px solid royalblue;
+    border-radius: 40px;
+    margin: 10px;
+    font-weight: 600;
+
+}
+.subtextpg3{
+    width: 80%;
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 500;
+    color: grey;
+}
+
+@media (max-width:1000px) and (min-width:600px) {
+    .page3{
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f4f4f4;
+    }
+    .page3heading{
+        width: 80%;
+        font-size: 35px;
+        color: black;
+        font-weight: 600;
+        text-align: center;
+    }
+    .contentpage3{
+        width: 100%;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .imagecontentpage3{
+        width: 80%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .textcontentpage3{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .tagspage3{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .circletag{
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        background-color: royalblue;
+        margin-right: 8px;
+    }
+    .tag{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: max-content;
+        padding: 10px;
+        border: 2.5px solid royalblue;
+        border-radius: 40px;
+        margin: 8px;
+        font-weight: 600;
+        font-size: 12px;
+    
+    }
+    .subtextpg3{
+        width: 80%;
+        margin-top: 40px;
+        font-size: 15px;
+        font-weight: 500;
+        color: grey;
+    }
+        
+}
+
+@media (max-width:600px) {
+    .page3{
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f4f4f4;
+    }
+    .page3heading{
+        width: 80%;
+        font-size: 25px;
+        color: black;
+        font-weight: 600;
+        text-align: center;
+    }
+    .contentpage3{
+        width: 100%;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .imagecontentpage3{
+        width: 90%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    .textcontentpage3{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .tagspage3{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 30px;
+    }
+    .circletag{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: royalblue;
+        margin-right: 8px;
+    }
+    .tag{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: max-content;
+        padding: 10px;
+        border: 2.5px solid royalblue;
+        border-radius: 40px;
+        margin: 8px;
+        font-weight: 600;
+        font-size: 12px;
+    
+    }
+    .subtextpg3{
+        width: 80%;
+        margin-top: 40px;
+        font-size: 15px;
+        font-weight: 500;
+        color: grey;
+    }
+    
+}
+
+.page4{
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+}
+.page4heading{
+    margin-top: 40px;
+    color: black;
+    font-size: 40px;
+    font-weight: 500;
+}
+.page4subheading{
+    color: royalblue;
+    font-size: 20px;
+    font-weight: 500;
+}
+.countriespage4div {
+    width:85%;
+    height: 80vh;
+    overflow-x: auto; /* Use 'auto' for scrollbars to appear only when necessary */
+    overflow-y: hidden;
+    margin-top: 80px;
+    display: flex; /* Use flexbox to arrange child elements in a row */
+}
+
+.pg4countrydiv {
+    width:50%; /* Ensure each child div is at least half the width of the viewport */
+    height: 100%;
+    border-radius: 40px;
+    flex-shrink: 0; /* Prevent child elements from shrinking */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+.pg4countrydiv::after{
+    content: '';
+    top: 0;bottom: 0;right: 0;left: 0;
+    position: absolute;
+    border-radius: 40px;
+    background: linear-gradient(to top , rgba(0, 0, 0, 0.744), transparent);
+}
+
+.canadacountrydiv {
+    width: 50%;
+    height: 100%;
+    background: url('/canadacountry.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.usacountrydiv{
+    background: url('/usacountry.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.ukcountrydiv{
+    background: url('/ukcountry.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.australiacountrydiv{
+    background: url('/australiacountry.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.germanycountrydiv{
+    background: url('/germanycountry.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.irelandcountrydiv{
+    background: url('/irelandcountry.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.topportion{
+    width: 90%;
+    height:10%;
+    position: relative;
+    z-index: 1;
+}
+.middleportion{
+    width: 85%;
+    height: 55%;
+    padding: 2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+.headingcard{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+}
+.middlecardcontent{
+    width: 90%;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center;
+}
+.bottomportion{
+    width: 90%;
+    height: 15%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flagcard{
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+    margin-right: 20px;
+}
+.canadaflagcard{
+    background: url('/canadaflag.png');
+    background-position: center;
+    background-size: cover;
+}
+.usaflagcard{
+    background: url('/usaflag.png');
+    background-position: center;
+    background-size: cover;
+}
+.ukflagcard{
+    background: url('/ukflag.png');
+    background-position: center;
+    background-size: cover;
+}
+.australiaflagcard{
+    background: url('/australiaflag.png');
+    background-position: center;
+    background-size: cover;
+}
+.germanyflagcard{
+    background: url('/germanyflag.png');
+    background-position: center;
+    background-size: cover;
+}
+.irelandflagcard{
+    background: url('/irelandflag.png');
+    background-position: center;
+    background-size: cover;
+}
+.viewdetailsbutton{
+    width: 200px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid transparent;
+}
+.viewdetailsbutton:hover{
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+
+@media (max-width:1000px) and (min-width:600px) {
+    .page4{
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+    }
+    .page4heading{
+        margin-top: 40px;
+        color: black;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .page4subheading{
+        color: royalblue;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .countriespage4div {
+        width:95%;
+        height: 80vh;
+        overflow-x: auto; /* Use 'auto' for scrollbars to appear only when necessary */
+        overflow-y: hidden;
+        margin-top: 80px;
+        display: flex; /* Use flexbox to arrange child elements in a row */
+    }
+    
+    .pg4countrydiv {
+        width:60%; /* Ensure each child div is at least half the width of the viewport */
+        height: 100%;
+        border-radius: 40px;
+        flex-shrink: 0; /* Prevent child elements from shrinking */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 20px;
+        margin-left: 20px;
+        position: relative;
+    }
+    .pg4countrydiv::after{
+        content: '';
+        top: 0;bottom: 0;right: 0;left: 0;
+        position: absolute;
+        border-radius: 40px;
+        background: linear-gradient(to top , rgba(0, 0, 0, 0.744), transparent);
+    }
+    .topportion{
+        width: 90%;
+        height:10%;
+        position: relative;
+        z-index: 1;
+    }
+    .middleportion{
+        width: 85%;
+        height: 55%;
+        padding: 2.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+    }
+    .headingcard{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        color: white;
+        font-weight: 600;
+    }
+    .middlecardcontent{
+        width: 90%;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .bottomportion{
+        width: 90%;
+        height: 15%;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flagcard{
+        width: 50px;
+        height: 50px;
+        border-radius: 500px;
+        margin-right: 20px;
+    }
+    .viewdetailsbutton{
+        width: 200px;
+        height: 50px;
+        border-radius: 40px;
+        background-color: white;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 600;
+        border: 2px solid transparent;
+    }
+    .viewdetailsbutton:hover{
+        transition: 0.5s;
+        cursor: pointer;
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+    }
+}
+
+@media (max-width:600px) {
+    .page4{
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: white;
+    }
+    .page4heading{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        color: black;
+        font-size: 30px;
+        width: 80%;
+        text-align: center;
+        font-weight: 600;
+    }
+    .page4subheading{
+        width: 80%;
+        text-align: center;
+        color: royalblue;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .countriespage4div {
+        width:95%;
+        height: 60vh;
+        overflow-x: auto; /* Use 'auto' for scrollbars to appear only when necessary */
+        overflow-y: hidden;
+        margin-top: 80px;
+        display: flex; /* Use flexbox to arrange child elements in a row */
+    }
+    
+    .pg4countrydiv {
+        width:85%; /* Ensure each child div is at least half the width of the viewport */
+        height: 100%;
+        border-radius: 20px;
+        flex-shrink: 0; /* Prevent child elements from shrinking */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 10px;
+        margin-left: 10px;
+        position: relative;
+    }
+    .pg4countrydiv::after{
+        content: '';
+        top: 0;bottom: 0;right: 0;left: 0;
+        position: absolute;
+        border-radius: 20px;
+        background: linear-gradient(to top , rgba(0, 0, 0, 0.744), transparent);
+    }
+    .topportion{
+        width: 90%;
+        height:10%;
+        position: relative;
+        z-index: 1;
+    }
+    .middleportion{
+        width: 88%;
+        height: 58%;
+        padding: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+    }
+    .headingcard{
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        color: white;
+        font-weight: 600;
+    }
+    .middlecardcontent{
+        width: 95%;
+        color: white;
+        font-size: 13px;
+        font-weight: 500;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .bottomportion{
+        width: 90%;
+        height: 15%;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .flagcard{
+        width: 50px;
+        height: 50px;
+        border-radius: 500px;
+        margin-right: 20px;
+    }
+    .viewdetailsbutton{
+        width: 200px;
+        height: 50px;
+        border-radius: 40px;
+        background-color: white;
+        color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 600;
+        border: 2px solid transparent;
+    }
+    .viewdetailsbutton:hover{
+        transition: 0.5s;
+        cursor: pointer;
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+    }
+}

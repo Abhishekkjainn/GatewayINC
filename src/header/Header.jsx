@@ -224,7 +224,80 @@ export default function Header() {
           onMouseEnter={handleBannerMouseEnter}
           onMouseLeave={handleBannerMouseLeave}
         >
-          Services Info
+          <div className="countrydiv">
+            <div className="countryimg canadadiv">
+              <img src="/lorwriting.jpg" alt="" className="countryflagimage" />
+            </div>
+            <div className="countryinfo">
+              <div className="countryhead">SOP/LOR Writing</div>
+              <div className="countrydesc">
+                We provide top-quality professional SOP writing
+              </div>
+            </div>
+          </div>
+          <div className="countrydiv">
+            <div className="countryimg canadadiv">
+              <img
+                src="/accomodation.jpg"
+                alt=""
+                className="countryflagimage"
+              />
+            </div>
+            <div className="countryinfo">
+              <div className="countryhead">Accomodation</div>
+              <div className="countrydesc">
+                Feel at home, no matter where life takes you.
+              </div>
+            </div>
+          </div>
+          <div className="countrydiv">
+            <div className="countryimg canadadiv">
+              <img src="/simcard.jpg" alt="" className="countryflagimage" />
+            </div>
+            <div className="countryinfo">
+              <div className="countryhead">SIM Card</div>
+              <div className="countrydesc">
+                Immerse yourself in a truly global experience.
+              </div>
+            </div>
+          </div>
+          <div className="countrydiv">
+            <div className="countryimg canadadiv">
+              <img src="/visa.jpg" alt="" className="countryflagimage" />
+            </div>
+            <div className="countryinfo">
+              <div className="countryhead">VISA Services</div>
+              <div className="countrydesc">
+                We Help you with VISA Immigrations.
+              </div>
+            </div>
+          </div>
+          <div className="countrydiv">
+            <div className="countryimg canadadiv">
+              <img src="/airtickets.jpg" alt="" className="countryflagimage" />
+            </div>
+            <div className="countryinfo">
+              <div className="countryhead">Air Tickets</div>
+              <div className="countrydesc">
+                We Help you Fly in Sky as well as in your life.
+              </div>
+            </div>
+          </div>
+          <div className="countrydiv">
+            <div className="countryimg canadadiv">
+              <img
+                src="/educationloan.jpg"
+                alt=""
+                className="countryflagimage"
+              />
+            </div>
+            <div className="countryinfo">
+              <div className="countryhead">Education Loan</div>
+              <div className="countrydesc">
+                Get Your Education Loan in Minutes with Us.
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Gallery Link */}
