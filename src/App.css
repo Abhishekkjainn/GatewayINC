@@ -261,3 +261,53 @@ body{
 
 
 /*Header Section Over*/
+
+@media (max-width:1000px) and (min-width:600px) {
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .company{
+    width: 40%;
+  }
+  .actionbuttondiv{
+    width: 40%;
+  }
+  .headerlinks{
+    display: none;
+    opacity: 0;
+  }
+}
+
+@media (max-width:600px){
+  .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .company{
+    width: 40%;
+  }
+  .actionbuttondiv{
+    width: 40%;
+  }
+  .headerlinks{
+    display: none;
+    opacity: 0;
+  }
+  .actionbutton{
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 1em 0.8em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.8em;
+    font-weight: bold;
+    font-size: 12px
+  }
+}
