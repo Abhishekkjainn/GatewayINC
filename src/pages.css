@@ -1550,13 +1550,16 @@
     padding-bottom: 20px;
 }
 .testimonialslider{
-    min-width: 100%;
+    width: 100%;
     margin-top: 40px;
-    overflow-x: scroll;
     height: 90vh;
     /* background-color: royalblue; */
     padding-top: 0px;
     padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .testimonialcard{
     width: 450px;
@@ -1620,4 +1623,209 @@
 .intakedate{
     font-size: 12px;
     font-weight: 500;
+}
+
+@media (max-width:1000px) and (min-width:600px) {
+    .page7{
+        width: 100%;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: rgb(240, 240, 240);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pg7head{
+        text-align: center;
+        width: 90%;
+    }
+    .pg7subhead{
+        width: 90%;
+        text-align: center;
+    }
+    .testmarquee{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .testimonialslider{
+        width: 100%;
+        margin-top: 40px;
+        height: 90vh;
+        /* background-color: royalblue; */
+        padding-top: 0px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .testimonialcard{
+        width: 450px;
+        height: 300px;
+        border-radius: 30px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        margin: 20px;
+    }
+    .toptestimonialcard{
+        width: 90%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottomtestimonialcard{
+        width: 90%;
+        height: 45%;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: justify;
+    }
+    .studentimage{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .studentinfo{
+        width: 65%;
+        margin-left: 20px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+    .studentimageimg{
+        width: 90%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    .studentname{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .collegename{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .intakedate{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media (max-width:600px){
+    .page7{
+        width: 100%;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: rgb(240, 240, 240);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .pg7head{
+        text-align: center;
+        width: 90%;
+        font-size: 20px;
+    }
+    .pg7subhead{
+        width: 90%;
+        text-align: center;
+        font-size: 12px;
+    }
+    .testmarquee{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .testimonialslider{
+        width: 100%;
+        margin-top: 40px;
+        height: auto;
+        /* background-color: royalblue; */
+        padding-top: 0px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .testimonialcard{
+        width:250px;
+        height: 200px;
+        border-radius: 20px;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        margin: 20px;
+    }
+    .toptestimonialcard{
+        width: 95%;
+        height: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bottomtestimonialcard{
+        width: 90%;
+        height: 50%;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 8px;
+        font-weight: 500;
+        text-align: justify;
+    }
+    .studentimage{
+        width: 30%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .studentinfo{
+        width: 65%;
+        margin-left: 20px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+    }
+    .studentimageimg{
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+    }
+    .studentname{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .collegename{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .intakedate{
+        margin-top: 8px;
+        font-size: 9px;
+        font-weight: 500;
+    }
 }
