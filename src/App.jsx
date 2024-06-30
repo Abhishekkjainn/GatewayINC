@@ -12,6 +12,7 @@ import Page5 from './pages/page5';
 import Page6 from './pages/page6';
 import Page7 from './pages/page7';
 import Page8 from './pages/page8';
+import Page9 from './pages/page9';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Page6 />
       <Page7 />
       <Page8 />
+      <Page9 />
     </>
   );
 }
