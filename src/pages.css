@@ -1517,7 +1517,7 @@
     .servicecard{
         width: max-content;
         padding: 10px;
-        border: 3px solid black;
+        border: 2px solid black;
         border-radius: 60px;
         display: flex;
         justify-content: center;
@@ -1526,10 +1526,98 @@
     }
     .servicetag{
         font-size: 12px;
-        font-weight: 700;
+        font-weight: 600;
         color: black;
     }
     .logoservicepage{
         width: 60%;
     }
+}
+
+.page7{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testmarquee{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.testimonialslider{
+    min-width: 100%;
+    margin-top: 40px;
+    overflow-x: scroll;
+    height: 90vh;
+    /* background-color: royalblue; */
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.testimonialcard{
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    margin: 20px;
+}
+.toptestimonialcard{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottomtestimonialcard{
+    width: 90%;
+    height: 45%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: justify;
+}
+.studentimage{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.studentinfo{
+    width: 65%;
+    margin-left: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.studentimageimg{
+    width: 90%;
+    height: 100%;
+    border-radius: 50%;
+}
+.studentname{
+    font-size: 18px;
+    font-weight: 600;
+}
+.collegename{
+    font-size: 13px;
+    font-weight: 600;
+}
+.intakedate{
+    font-size: 12px;
+    font-weight: 500;
 }
