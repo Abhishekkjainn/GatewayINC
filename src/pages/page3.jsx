@@ -1,12 +1,15 @@
 export default function Page3() {
   return (
     <div className="page3">
-      <div className="page3heading">
+      {/* <div className="page3heading">
         Expert-Led Test Prep to Fuel your Study Abroad Success
-      </div>
+      </div> */}
       <div className="contentpage3">
         <img src="teaching.jpg" className="imagecontentpage3" />
         <div className="textcontentpage3">
+          <div className="page3heading">
+            Expert-Led Test Prep to Fuel your Study Abroad Success
+          </div>
           <div className="tagspage3">
             <div className="tag">
               <div className="circletag"></div>Daily Live Classes
