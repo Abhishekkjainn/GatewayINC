@@ -10,7 +10,12 @@ export default function Page7() {
         services.
       </div>
       <div className="testimonialslider">
-        <Marquee autoFill={true} speed={40} pauseOnHover={true}>
+        <Marquee
+          autoFill={true}
+          speed={40}
+          pauseOnHover={true}
+          className="testmarq"
+        >
           <div className="testimonialcard">
             <div className="toptestimonialcard">
               <div className="studentimage">
@@ -167,6 +172,7 @@ export default function Page7() {
           direction="right"
           speed={40}
           pauseOnHover={true}
+          className="testmarq"
         >
           <div className="testimonialcard">
             <div className="toptestimonialcard">

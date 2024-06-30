@@ -1539,7 +1539,7 @@
     height: auto;
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: rgb(240, 240, 240);
+    background-color:rgb(247, 247, 247);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1552,10 +1552,10 @@
 .testimonialslider{
     width: 100%;
     margin-top: 40px;
-    height: 90vh;
+    height: auto;
     /* background-color: royalblue; */
     padding-top: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1615,6 +1615,7 @@
 .studentname{
     font-size: 18px;
     font-weight: 600;
+    color: royalblue;
 }
 .collegename{
     font-size: 13px;
@@ -1623,6 +1624,10 @@
 .intakedate{
     font-size: 12px;
     font-weight: 500;
+    color: grey;
+}
+.testmarq{
+    height: auto;
 }
 
 @media (max-width:1000px) and (min-width:600px) {
@@ -1827,5 +1832,409 @@
         margin-top: 8px;
         font-size: 9px;
         font-weight: 500;
+    }
+}
+
+.page8{
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.formdiv{
+    width: 80%;
+    height: 85vh;
+    background-color: royalblue;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formimage{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.formimageimg{
+    width: 90%;
+}
+.contactformdiv{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: green; */
+}
+.form{
+    width: 80%;
+    height: 80%;
+    /* background-color: royalblue; */
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inputdiv{
+    width: 80%;
+    height: auto;
+    /* background-color: #9e9ea7; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.inputdivinput{
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.108);
+    padding: 2%;
+    padding-left: 6%;
+    font-size: 20px;
+}
+.headingdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.inputdivlabel{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+.pulsediv{
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headingtagform{
+    width: 90%;
+    font-size: 28px;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+    margin-bottom:30px ;
+}
+.pulse{
+
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 50%;
+    animation: pulseanim 1.5s linear infinite ;
+}
+@keyframes pulseanim {
+    0%{
+        scale: 1.2;
+        opacity: 0.8;
+    }
+    25%{
+        scale: 1.3;
+        opacity: 0.6;
+    }
+    50%{
+        scale: 1.4;
+        opacity: 0.4;
+    }
+    75%{
+        scale: 1.5;
+        opacity: 0.2;
+    }    
+    100%{
+        scale: 1.6;
+        opacity: 0;
+    }
+}
+.submitbutton{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+@media (max-width:1000px) and (min-width:600px) {
+    .page8{
+        width: 100%;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .formdiv{
+        width: 80%;
+        height: 85vh;
+        background-color: royalblue;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .formimage{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .formimageimg{
+        width: 150%;
+    }
+    .contactformdiv{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: green; */
+    }
+    .form{
+        width: 100%;
+        height: 80%;
+        /* background-color: royalblue; */
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .inputdiv{
+        width: 80%;
+        height: auto;
+        /* background-color: #9e9ea7; */
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .inputdivinput{
+        width: 90%;
+        height: 30px;
+        border-radius: 10px;
+        border: 2px solid white;
+        background-color: rgba(255, 255, 255, 0.108);
+        padding: 2%;
+        padding-left: 6%;
+        font-size: 20px;
+    }
+    .headingdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .inputdivlabel{
+        font-size: 10px;
+        font-weight: 600;
+        color: white;
+    }
+    .pulsediv{
+        position: absolute;
+        left: 20px;
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .headingtagform{
+        width: 90%;
+        font-size: 25px;
+        color: white;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 50px;
+    }
+    .pulse{
+    
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 50%;
+        animation: pulseanim 1.5s linear infinite ;
+    }
+    .submitbutton{
+        width: 180px;
+        height: 40px;
+        background-color: white;
+        color: black;
+        border-radius: 40px;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    
+    
+}
+
+@media (max-width:600px) {
+    .page8{
+        width: 100%;
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .formdiv{
+        width: 80%;
+        height: 70vh;
+        background-color: royalblue;
+        border-radius: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .formimage{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+    }
+    .formimageimg{
+        width: 65%;
+        /* height: 20vh; */
+    }
+    .contactformdiv{
+        width: 100%;
+        height: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* background-color: green; */
+    }
+    .form{
+        width: 95%;
+        height: 100%;
+        /* background-color: royalblue; */
+        transform: translateY(10px);
+        border-radius: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .inputdiv{
+        width: 80%;
+        height: auto;
+        /* background-color: #9e9ea7; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .inputdivinput{
+        width: 80%;
+        height: 25px;
+        border-radius: 5px;
+        border: 2px solid white;
+        background-color: rgba(255, 255, 255, 0.108);
+        padding: 2%;
+        padding-left: 6%;
+        font-size: 20px;
+    }
+    .headingdiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .inputdivlabel{
+        font-size: 8px;
+        font-weight: 600;
+        color: white;
+    }
+    .pulsediv{
+        position: absolute;
+        left: -10px;
+        width: 20px;
+        height: 20px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .headingtagform{
+        width: 100%;
+        font-size: 15px;
+        color: white;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 20px;
+        margin-bottom: 10px;
+    }
+    .pulse{
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        border-radius: 50%;
+        animation: pulseanim 1.5s linear infinite ;
+    }    
+    .submitbutton{
+        width: 120px;
+        height: 35px;
+        background-color: white;
+        color: black;
+        border-radius: 40px;
+        /* text-align: center; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 10px;
     }
 }
