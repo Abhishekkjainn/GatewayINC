@@ -1949,6 +1949,13 @@
     transition: 0.5s;
     cursor: pointer;
 }
+.loancontent{
+    color: rgb(183, 183, 183);
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-top: 20px;
+}
 
 
 @media (max-width:1000px) and (min-width:600px) {
@@ -2178,6 +2185,13 @@
     }
     .expertimage{
         height: 45vh;
+    }
+    .loancontent{
+        color: rgb(183, 183, 183);
+        font-size: 12px;
+        font-weight: 500;
+        margin-left: 15px;
+        margin-top: 20px;
     }
     
 }

@@ -10,20 +10,32 @@ export default function Page5() {
     <div className="page5">
       <div className="educationloanbannerdiv">
         <div className="educationloancontentdiv">
-          <div className="smallheadeducationcontent">Gateway Finance</div>
+          <div className="smallheadeducationcontent"></div>
           <div className="educationloanheading">
-            Unlock Your World: Study Abroad Loans Made Easy
+            Achieve Your Study Abroad Goals with Financial Assistance
           </div>
           <div className="contentlist">
-            <ul className="custom-bullet-list">
+            {/* <ul className="custom-bullet-list">
               {listItems.map((item, index) => (
                 <li key={index} className="educationlist">
                   {item}
                 </li>
               ))}
-            </ul>
+            </ul> */}
+            <div className="loancontent">
+              Gateway Inc. understands that financing studies abroad is a
+              crucial step for many students. We take the hassle out of finding
+              the perfect education loan. Our streamlined approach connects
+              students with the right lender. Students don’t have to wade
+              through endless possibilities. We assess student profiles and
+              study abroad requirements to identify lenders offering the most
+              suitable loan options. A smooth, paperless journey awaits them.
+              Our digital platform eliminates the need for extensive paperwork.
+              Students can enjoy a convenient and stress-free application
+              process.
+            </div>
           </div>
-          <div className="talktoexpertbutton">Talk To Our Expert</div>
+          <div className="talktoexpertbutton">Check Your Eligibility</div>
         </div>
         <div className="educationloanimagediv">
           <img
