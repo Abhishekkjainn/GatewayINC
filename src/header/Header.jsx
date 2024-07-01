@@ -62,7 +62,11 @@ export default function Header() {
   return (
     <div className="header">
       <div className="company">
-        <img src="/mainlogo.png" alt="Gateway Main Logo" className="mainlogo" />
+        <img
+          src="/gatewaymainlogo.png"
+          alt="Gateway Main Logo"
+          className="mainlogo"
+        />
       </div>
       <div className="headerlinks">
         {/* Study Abroad Link */}
