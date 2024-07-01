@@ -24,9 +24,9 @@ export default function Page6() {
         </div>
         <div className="servicecard">
           <div className="circleservicelogo">
-            <img src="simcardicon.png" alt="" className="logoservicepage" />
+            <img src="loanicon.png" alt="" className="logoservicepage" />
           </div>
-          <div className="servicetag">SIM Card</div>
+          <div className="servicetag">Education Loan</div>
         </div>
         <div className="servicecard">
           <div className="circleservicelogo">
