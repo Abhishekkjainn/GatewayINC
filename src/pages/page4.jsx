@@ -14,9 +14,10 @@ export default function Page4() {
               Canada
             </div>
             <div className="middlecardcontent">
-              Seize the opportunity to pursue academic and professional
-              ambitions in one of the world's most desirable countries, boasting
-              223 universities and hosting over 750,000 international students.
+              Studying in Canada provides top-tier education, a multicultural
+              environment, post-graduation work opportunities, and breathtaking
+              natural scenery, making it a premier destination for students
+              worldwide.
             </div>
           </div>
           <div className="bottomportion">
@@ -31,9 +32,9 @@ export default function Page4() {
               UK
             </div>
             <div className="middlecardcontent">
-              At the forefront of one of the oldest and most esteemed education
-              systems worldwide, featuring 223 universities and hosting over
-              600,000 international students.
+              Studying in the UK offers a prestigious education system, diverse
+              cultural experiences, and strong industry connections, all in a
+              historic and dynamic setting.
             </div>
           </div>
           <div className="bottomportion">
@@ -48,9 +49,9 @@ export default function Page4() {
               Australia
             </div>
             <div className="middlecardcontent">
-              Engage with Australia's Indigenous cultures to expand your
-              perspectives, challenge your worldviews, and enhance your personal
-              development.
+              Studying in Australia means top-notch education, multicultural
+              experiences, and breathtaking landscapes, making it an enriching
+              academic choice.
             </div>
           </div>
           <div className="bottomportion">
@@ -65,9 +66,10 @@ export default function Page4() {
               USA
             </div>
             <div className="middlecardcontent">
-              Discover unparalleled academic opportunities in the premier global
-              education destination, featuring 223 universities and welcoming
-              over 1.2 million international students.
+              Studying in the USA provides world-class education, diverse
+              cultural experiences, and strong career opportunities through
+              internships and networking. Flexible academic programs allow for
+              personalized education paths.
             </div>
           </div>
           <div className="bottomportion">
@@ -82,9 +84,10 @@ export default function Page4() {
               Germany
             </div>
             <div className="middlecardcontent">
-              Embark on a transformative journey through world-class education
-              and groundbreaking innovation situated at the vibrant heart of
-              Europe.
+              Studying in Germany offers high-quality, low-cost education,
+              diverse cultural experiences, and strong career opportunities
+              through internships and industry connections. Many programs are
+              available in English.
             </div>
           </div>
           <div className="bottomportion">
@@ -99,9 +102,10 @@ export default function Page4() {
               Ireland
             </div>
             <div className="middlecardcontent">
-              Seize the opportunity to pursue academic and professional
-              ambitions in one of the world's most desirable countries, boasting
-              223 universities and hosting over 750,000 international students.
+              Studying in Ireland offers high-quality education, a vibrant
+              cultural experience, and strong industry connections. The country
+              provides numerous English-taught programs and excellent career
+              opportunities through internships.
             </div>
           </div>
           <div className="bottomportion">

@@ -30,7 +30,7 @@ export default function Page3() {
           <div className="subtextpg3">
             Prepare for your study abroad journey with expert-led test prep.
             Daily live classes and simulated mock tests available for IELTS
-            Academic, IELTS General, TOEFL-iBT, and PET Exam. Includes 5
+            Academic, IELTS General, TOEFL-iBT, and PET Exam. Includes 10
             full-length tests and personalized evaluations for speaking and
             writing skills. Achieve your best scores with structured guidance.
           </div>

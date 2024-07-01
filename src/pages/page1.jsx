@@ -3,10 +3,10 @@ export default function Page1() {
   return (
     <div className="page1">
       <div className="headingpage1">
-        Turn Your <span className="bluetext">Dream College</span> Abroad into
-        Reality.
+        Study at Your <br /> <span className="bluetext">Dream College.</span>{' '}
+        <br />
       </div>
-      <div className="searchdivpage1">
+      {/* <div className="searchdivpage1">
         <div className="group">
           <svg viewBox="0 0 24 24" aria-hidden="true" className="icon">
             <g>
@@ -15,7 +15,7 @@ export default function Page1() {
           </svg>
           <input className="input" type="search" placeholder="Search Courses" />
         </div>
-      </div>
+      </div> */}
       <div className="collegemarquee">
         <Marquee autoFill={true} pauseOnHover={true} speed={40} loop={0}>
           <div className="collegeimage college1"></div>

@@ -12,7 +12,7 @@ export default function Page5() {
         <div className="educationloancontentdiv">
           <div className="smallheadeducationcontent"></div>
           <div className="educationloanheading">
-            Achieve Your Study Abroad Goals with Financial Assistance
+            Secure a Loan for Your Study Abroad Goals
           </div>
           <div className="contentlist">
             {/* <ul className="custom-bullet-list">

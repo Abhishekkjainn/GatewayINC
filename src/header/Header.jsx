@@ -268,7 +268,7 @@ export default function Header() {
               <img src="/simcard.jpg" alt="" className="countryflagimage" />
             </div>
             <div className="countryinfo">
-              <div className="countryhead">SIM Card</div>
+              <div className="countryhead">Forex Services</div>
               <div className="countrydesc">
                 Immerse yourself in a truly global experience.
               </div>
