@@ -23,23 +23,6 @@ export default function Page4() {
             <div className="viewdetailsbutton">View Details</div>
           </div>
         </div>
-        <div className="pg4countrydiv usacountrydiv">
-          <div className="topportion"></div>
-          <div className="middleportion">
-            <div className="headingcard">
-              <div className="flagcard usaflagcard"></div>
-              USA
-            </div>
-            <div className="middlecardcontent">
-              Discover unparalleled academic opportunities in the premier global
-              education destination, featuring 223 universities and welcoming
-              over 1.2 million international students.
-            </div>
-          </div>
-          <div className="bottomportion">
-            <div className="viewdetailsbutton">View Details</div>
-          </div>
-        </div>
         <div className="pg4countrydiv ukcountrydiv">
           <div className="topportion"></div>
           <div className="middleportion">
@@ -68,6 +51,23 @@ export default function Page4() {
               Engage with Australia's Indigenous cultures to expand your
               perspectives, challenge your worldviews, and enhance your personal
               development.
+            </div>
+          </div>
+          <div className="bottomportion">
+            <div className="viewdetailsbutton">View Details</div>
+          </div>
+        </div>
+        <div className="pg4countrydiv usacountrydiv">
+          <div className="topportion"></div>
+          <div className="middleportion">
+            <div className="headingcard">
+              <div className="flagcard usaflagcard"></div>
+              USA
+            </div>
+            <div className="middlecardcontent">
+              Discover unparalleled academic opportunities in the premier global
+              education destination, featuring 223 universities and welcoming
+              over 1.2 million international students.
             </div>
           </div>
           <div className="bottomportion">
