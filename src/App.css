@@ -266,6 +266,112 @@ body{
 
 /*Header Section Over*/
 
+/*Burger*/
+.menurespbutton{
+  display: none;
+}
+.burger {
+  position: relative;
+  width: 40px;
+  height: 30px;
+  background: transparent;
+  cursor: pointer;
+  display: block;
+  scale: 0.5;
+  margin-right: 20px;
+}
+
+.burger input {
+  display: none;
+}
+
+.burger span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: black;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+.burger span:nth-of-type(1) {
+  top: 0px;
+  transform-origin: left center;
+}
+
+.burger span:nth-of-type(2) {
+  top: 50%;
+  transform: translateY(-50%);
+  transform-origin: left center;
+}
+
+.burger span:nth-of-type(3) {
+  top: 100%;
+  transform-origin: left center;
+  transform: translateY(-100%);
+}
+
+.burger input:checked ~ span:nth-of-type(1) {
+  transform: rotate(45deg);
+  top: 0px;
+  left: 5px;
+}
+
+.burger input:checked ~ span:nth-of-type(2) {
+  width: 0%;
+  opacity: 0;
+}
+
+.burger input:checked ~ span:nth-of-type(3) {
+  transform: rotate(-45deg);
+  top: 28px;
+  left: 5px;
+}
+
+/*Menu Page*/
+.menudiv{
+  width: 90%;
+  height: 100vh;
+  background-color: white;
+  border-left: 2px solid grey;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: -100%;
+  transition: right 0.3s ease;
+  display: flex;
+  justify-content: start;
+  align-items: center;flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 100;
+}
+.closebutton{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.closebuttonimg{
+  width: 25px;
+  margin-right: 20px;
+}
+.menutag{
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 20px;
+  color: #1877F2;
+}
+
 @media (max-width:1000px) and (min-width:600px) {
   .header{
     display: flex;
@@ -276,11 +382,14 @@ body{
     width: 40%;
   }
   .actionbuttondiv{
-    width: 40%;
+    display: none;
   }
   .headerlinks{
     display: none;
     opacity: 0;
+  }
+  .menurespbutton{
+    display: flex;
   }
 }
 
@@ -294,24 +403,15 @@ body{
     width: 40%;
   }
   .actionbuttondiv{
-    width: 40%;
+    display: none;
   }
   .headerlinks{
     display: none;
     opacity: 0;
   }
-  .actionbutton{
-    box-sizing: border-box;
-    border: 0;
-    border-radius: 20px;
-    color: var(--secondary-color);
-    padding: 1em 0.8em;
-    background: var(--primary-color);
+  .menurespbutton{
     display: flex;
-    transition: 0.2s background;
-    align-items: center;
-    gap: 0.8em;
-    font-weight: bold;
-    font-size: 12px
   }
 }
+
+

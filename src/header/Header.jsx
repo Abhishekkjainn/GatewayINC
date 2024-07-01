@@ -4,6 +4,7 @@ export default function Header() {
   const [activeBanner, setActiveBanner] = useState(null);
   const [bannerVisible, setBannerVisible] = useState(false);
   const [timeoutId, setTimeoutId] = useState(null);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   // Clear timeout when component unmounts
   useEffect(() => {
@@ -48,6 +49,14 @@ export default function Header() {
         setActiveBanner(null);
       }, 1200)
     ); // Adjust delay time here (2000 milliseconds = 2 seconds)
+  };
+  const openMenu = () => {
+    setMenuOpen(true);
+  };
+
+  // Function to close the menu
+  const closeMenu = () => {
+    setMenuOpen(false);
   };
 
   return (
@@ -313,6 +322,37 @@ export default function Header() {
             <div className="arrow"></div>
           </div>
         </button>
+      </div>
+
+      <div className="menurespbutton">
+        <label className="burger" htmlFor="burger">
+          <input
+            type="checkbox"
+            id="burger"
+            onChange={() => setMenuOpen(!menuOpen)}
+            checked={menuOpen}
+          />
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+
+      {/* Menu content */}
+      <div className="menudiv" style={{ right: menuOpen ? '0' : '-100%' }}>
+        {/* <button className="closebtn" onClick={() => setMenuOpen(false)}>
+          &times;
+        </button> */}
+        <div className="closebutton">
+          <div className="menutag">Menu</div>
+          <img
+            src="close.png"
+            alt=""
+            className="closebuttonimg"
+            onClick={() => setMenuOpen(false)}
+          />
+        </div>
+        <div className="menulinks"></div>
       </div>
     </div>
   );
