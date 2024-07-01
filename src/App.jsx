@@ -13,14 +13,16 @@ import Page6 from './pages/page6';
 import Page7 from './pages/page7';
 import Page8 from './pages/page8';
 import Page9 from './pages/page9';
+import Page2alt from './pages/page2alt';
 
 function App() {
   return (
     <>
       <Header />
       <Page1 />
-      {/* <Page2 /> */}
+
       <Page3 />
+      <Page2alt />
       <Page4 />
       <Page5 />
       <Page6 />
