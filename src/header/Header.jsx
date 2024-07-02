@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 export default function Header() {
   const [activeBanner, setActiveBanner] = useState(null);
@@ -61,13 +62,13 @@ export default function Header() {
 
   return (
     <div className="header">
-      <div className="company">
+      <Link className="company" to={'/'}>
         <img
           src="/gatewaymainlogo.png"
           alt="Gateway Main Logo"
           className="mainlogo"
         />
-      </div>
+      </Link>
       <div className="headerlinks">
         {/* Study Abroad Link */}
         <div
@@ -87,7 +88,7 @@ export default function Header() {
           onMouseEnter={handleBannerMouseEnter}
           onMouseLeave={handleBannerMouseLeave}
         >
-          <div className="countrydiv">
+          <Link className="countrydiv linkstyle" to={'/canada'}>
             <div className="countryimg canadadiv">
               <img src="/canadaflag.png" alt="" className="countryflagimage" />
             </div>
@@ -98,8 +99,8 @@ export default function Header() {
                 Opportunities Await
               </div>
             </div>
-          </div>
-          <div className="countrydiv">
+          </Link>
+          <Link className="countrydiv linkstyle" to={'/usa'}>
             <div className="countryimg canadadiv">
               <img src="/usaflag.png" alt="" className="countryflagimage" />
             </div>
@@ -110,7 +111,7 @@ export default function Header() {
                 Bright Future.
               </div>
             </div>
-          </div>
+          </Link>
           <div className="countrydiv">
             <div className="countryimg canadadiv">
               <img src="/ukflag.png" alt="" className="countryflagimage" />
@@ -356,7 +357,187 @@ export default function Header() {
             onClick={() => setMenuOpen(false)}
           />
         </div>
-        <div className="menulinks"></div>
+        <div className="menulinks">
+          <div className="menuresphead">Study Abroad</div>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/canada'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="canadaflag.png"
+              alt="Canada Flag"
+              className="iconrespmenumob"
+            />
+            <div className="menuresptag">Canada</div>
+          </Link>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/canada'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="ukflag.png"
+              alt="Canada Flag"
+              className="iconrespmenumob"
+            />
+            <div className="menuresptag">UK</div>
+          </Link>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/canada'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="australiaflag.png"
+              alt="Canada Flag"
+              className="iconrespmenumob"
+            />
+            <div className="menuresptag">Australia</div>
+          </Link>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/usa'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="usaflag.png"
+              alt="Canada Flag"
+              className="iconrespmenumob"
+            />
+            <div className="menuresptag">USA</div>
+          </Link>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/canada'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="germanyflag.png"
+              alt="Canada Flag"
+              className="iconrespmenumob"
+            />
+            <div className="menuresptag">Germany</div>
+          </Link>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/canada'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="irelandflag.png"
+              alt="Canada Flag"
+              className="iconrespmenumob"
+            />
+            <div className="menuresptag">Ireland</div>
+          </Link>
+          <div className="menuresphead">Tesp Prep</div>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/canada'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="ieltslogo.png"
+              alt="Canada Flag"
+              className="iconrespmenumob"
+            />
+            <div className="menuresptag">IELTS</div>
+          </Link>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/canada'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="ptelogo.png"
+              alt="Canada Flag"
+              className="iconrespmenumob"
+            />
+            <div className="menuresptag">PTE</div>
+          </Link>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/canada'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="TOEFLlogo.png"
+              alt="Canada Flag"
+              className="iconrespmenumob"
+            />
+            <div className="menuresptag">TOEFL</div>
+          </Link>
+          <div className="menuresphead">Services Provided</div>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/canada'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="lorwriting.jpg"
+              alt="Canada Flag"
+              className="iconrespmenumob"
+            />
+            <div className="menuresptag">SOP / LOR Writing</div>
+          </Link>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/canada'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="accomodation.jpg"
+              alt="Canada Flag"
+              className="iconrespmenumob"
+            />
+            <div className="menuresptag">Accomodation</div>
+          </Link>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/canada'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="simcard.jpg"
+              alt="Canada Flag"
+              className="iconrespmenumob"
+            />
+            <div className="menuresptag">Forex Services</div>
+          </Link>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/canada'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img src="visa.jpg" alt="Canada Flag" className="iconrespmenumob" />
+            <div className="menuresptag">VISA Services</div>
+          </Link>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/canada'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="airtickets.jpg"
+              alt="Canada Flag"
+              className="iconrespmenumob"
+            />
+            <div className="menuresptag">Air Tickets</div>
+          </Link>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/canada'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="educationloan.jpg"
+              alt="Canada Flag"
+              className="iconrespmenumob"
+            />
+            <div className="menuresptag">Education Loan</div>
+          </Link>
+        </div>
       </div>
     </div>
   );
