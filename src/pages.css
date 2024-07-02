@@ -1094,7 +1094,9 @@
 }
 .educationloanbannerdiv{
     width: 80%;
-    height: 70vh;
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 0px;
     background-color: royalblue;
     border-radius: 40px;
     display: flex;
@@ -1166,8 +1168,12 @@
     cursor: pointer;
 }
 .loancontent{
-
+    color: rgb(222, 222, 222);
+    font-weight: 500;
+    margin-left: 15px;
+    font-size: 15px;
 }
+
 
 @media (max-width:1000px) and (min-width:600px){
     .page5{
@@ -1183,7 +1189,8 @@
     }
     .educationloanbannerdiv{
         width: 85%;
-        height: 75vh;
+        height: auto;
+        padding-top: 30px;
         background-color: royalblue;
         border-radius: 40px;
         display: flex;
@@ -1287,7 +1294,7 @@
         align-items: end;
     }
     .educationloanimage{
-        width: 75%;
+        width: 250px;
         /* height: 100%; */
     }
     .educationloancontentdiv{
@@ -1347,7 +1354,12 @@
         color: white;
         transition: 0.4s;
         cursor: pointer;
-    }    
+    }  
+    .loancontent{
+        font-size: 11px;
+        margin-top: 15px;
+        text-align: center;
+    }  
 }
 
 .page6{
@@ -1858,115 +1870,160 @@
 }
 .consultbanner{
     width: 90%;
-    height: 80vh;
+    height: auto;
+    padding-top: 40px;
     border-radius: 40px;
-    background-color: grey;
-    background: url('/gradient2.png');
-    background-size: cover;
-    background-position: center;
+    background-color: rgb(11, 11, 11);
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .consultimage{
-    width: 50%;
+    width: 40%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: end;
+}
+.expertimage{
+    width: 450px;
 }
 .consultform{
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-right: 5%;
+}
+.smallheading{
+    /* width: 90%; */
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+.circleconsult{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: grey;
+    margin-right: 10px;
+}
+.headingconsult{
+    width: 80%;
+    font-size: 30px;
+    color: white;
+}
+.formdiv{
+    width: 90%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: #9e9ea7; */
+    margin-top: 20px;
+}
+.namediv{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.firstname,.lastname{
+    width: 45%;
+    height: 50px;
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(21, 21, 21);
+}
+.iconinp{
+    width: 30px;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
-.consultformdiv{
+.iconinpimage{
+    width: 15px;
+}
+.inputconsult{
     width: 90%;
     height: 90%;
-    border-radius: 25px;
-    /* background-color: rgba(0, 0, 0, 0.344); */
-    backdrop-filter: blur(10px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.consultheading{
-    text-align: center;
-    width: 90%;
-    height: 150px;
-    font-size: 40px;
+    font-size: 15px;
     color: white;
-    font-weight: 500;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.inputdiv{
-    width: 80%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.inp{
-    width: 60%;
-    font-size: 14px;
-    border-radius: 6px;
-    line-height: 1.5;
-    padding: 5px 10px;
-    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
-    border: 2px solid #dee1e2;
-    color: rgb(14, 14, 16);
-    background: #f6f6f6;
-    display: block;
-    height: 32px;
-    margin: 15px;
-    :hover {
-        border-color: #ccc;
-    }
-    :focus{
-        border-color: #9147ff;
-        background: #fff;
-    }
+    background-color: transparent;
+    border: none;
+    outline: none;
     
 }
-.submitbutton{
-    width: 180px;
-    height: 45px;
+.inputconsult:hover{
+    background-color: transparent;
+    border: 0px solid transparent;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+}
+.inputconsult:focus{
+    outline: none;
+    border: 0px solid transparent;
+    border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+}
+.inputconsult::placeholder{
+    color: grey;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+}
+.submitbuttonconsult{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 80px;
+}
+.submitbuttonbutton{
+    width: 200px;
+    height: 60px;
     background-color: white;
     color: black;
-    font-size: 15px;
-    font-weight: 500;
+    border-radius: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    font-weight: 600;
+    font-size: 16px;
 }
-.submitbutton:hover{
+.submitbuttonbutton:hover{
     background-color: black;
     color: white;
-    transition: 0.5s;
+    transition: 0.3s;
     cursor: pointer;
 }
-.loancontent{
-    color: rgb(220, 220, 220);
-    font-size: 13px;
-    font-weight: 500;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-
 
 @media (max-width:1000px) and (min-width:600px) {
     .page8{
         width: 100%;
         height: auto;
         padding-top: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 0px;
         background-color: white;
         display: flex;
         justify-content: center;
@@ -1974,107 +2031,156 @@
         flex-direction: column;
     }
     .consultbanner{
-        width: 95%;
-        height: 80vh;
-        border-radius: 40px;
-        background-color: grey;
-        background: url('/gradient2.png');
-        background-size: cover;
-        background-position: center;
+        width: 100%;
+        height: auto;
+        border-radius: 0px;
+        padding-top: 40px;
+        background-color: rgb(11, 11, 11);
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
     }
     .consultimage{
-        width: 50%;
+        width: 40%;
         height: 100%;
         display: flex;
         justify-content: center;
         align-items: end;
+    }
+    .expertimage{
+        width: 350px;
     }
     .consultform{
         width: 50%;
         height: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: start;
+        flex-direction: column;
+        margin-right: 5%;
     }
-    .consultformdiv{
-        width: 95%;
-        height: 90%;
-        border-radius: 25px;
-        /* background-color: rgba(0, 0, 0, 0.344); */
-        /* backdrop-filter: blur(10px); */
+    .smallheading{
+        /* width: 90%; */
+        color: grey;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-    }
-    .consultheading{
-        text-align: center;
-        width: 95%;
-        height: 150px;
-        font-size: 30px;
-        color: white;
         font-weight: 500;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
-    .inputdiv{
-        width: 80%;
+    .circleconsult{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: grey;
+        margin-right: 10px;
+    }
+    .headingconsult{
+        width: 100%;
+        font-size: 20px;
+        color: white;
+    }
+    .formdiv{
+        width: 90%;
         height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* background-color: #9e9ea7; */
+        margin-top: 20px;
+    }
+    .namediv{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .firstname,.lastname{
+        width: 90%;
+        height: 40px;
+        padding: 5px;
+        border: 2px solid grey;
+        border-radius: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        background-color: rgb(21, 21, 21);
     }
-    .inp{
-        width: 80%;
-        font-size: 14px;
-        font-size: 12px;
-        font-weight: 600;
-        border-radius: 6px;
-        line-height: 1.5;
-        padding: 5px 10px;
-        transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
-        border: 2px solid #dee1e2;
-        color: rgb(14, 14, 16);
-        background: #dee1e2;
-        display: block;
-        height: 32px;
-        margin: 15px;
-        :hover {
-            border-color: #ccc;
-        }
-        :focus{
-            border-color: #9147ff;
-            background: #fff;
-        }
+    .iconinp{
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconinpimage{
+        width: 15px;
+    }
+    .inputconsult{
+        width: 90%;
+        height: 90%;
+        font-size: 15px;
+        color: white;
+        background-color: transparent;
+        border: none;
+        outline: none;
         
     }
-    .submitbutton{
+    .inputconsult:hover{
+        background-color: transparent;
+        border: 0px solid transparent;
+        outline: none;
+        border: none;
+        box-shadow: none;
+        background-color: transparent;
+        outline: none !important;
+        border: none !important;
+        box-shadow: none !important;
+        background-color: transparent !important;
+    }
+    .inputconsult:focus{
+        outline: none;
+        border: 0px solid transparent;
+        border-color: inherit;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      outline: none !important;
+      border: none !important;
+      box-shadow: none !important;
+      background-color: transparent !important;
+    }
+    .inputconsult::placeholder{
+        color: grey;
+        font-weight: 500;
+        letter-spacing: 1px;
+    
+    }
+    .submitbuttonconsult{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 80px;
+    }
+    .submitbuttonbutton{
         width: 180px;
-        height: 45px;
+        height: 50px;
         background-color: white;
         color: black;
-        font-size: 15px;
-        font-weight: 500;
+        border-radius: 40px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 30px;
+        font-weight: 600;
+        font-size: 16px;
     }
-    .submitbutton:hover{
+    .submitbuttonbutton:hover{
         background-color: black;
         color: white;
-        transition: 0.5s;
+        transition: 0.3s;
         cursor: pointer;
     }
-    
-    
 }
-
 @media (max-width:600px){
     .page8{
         width: 100%;
@@ -2089,115 +2195,158 @@
     }
     .consultbanner{
         width: 100%;
-        height: 100vh;
+        height: auto;
+        padding-top: 40px;
         border-radius: 0px;
-        background-color: grey;
-        background: url('/gradient2.png');
-        background-size: cover;
-        background-position: center;
+        background-color: rgb(11, 11, 11);
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         flex-direction: column-reverse;
     }
     .consultimage{
         width: 100%;
-        height: 50%;
+        height: 40%;
         display: flex;
         justify-content: center;
         align-items: end;
     }
+    .expertimage{
+        width: 250px;
+    }
     .consultform{
-        width: 100%;
+        width: 90%;
         height: 50%;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
+        margin-right: 5%;
+        margin-left: 5%;
     }
-    .consultformdiv{
-        width: 90%;
-        height: 100%;
-        border-radius: 0px;
-        /* background-color: rgba(0, 0, 0, 0.344); */
-        backdrop-filter: blur(0px);
+    .smallheading{
+        /* width: 90%; */
+        color: grey;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
-        transform: translateY(25px);
+        font-weight: 500;
     }
-    .consultheading{
+    .circleconsult{
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: grey;
+        margin-right: 10px;
+    }
+    .headingconsult{
+        width: 85%;
+        font-size: 20px;
+        color: white;
         text-align: center;
-        width: 95%;
-        height: 150px;
-        font-size: 25px;
-        color: white;
-        font-weight: 500;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
-    .inputdiv{
-        width: 80%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .inp{
+    .formdiv{
         width: 100%;
-        font-size: 12px;
-        font-weight: 600;
-        border-radius: 6px;
-        line-height: 1.5;
-        padding: 5px 10px;
-        transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
-        border: 2px solid #dee1e2;
-        color: rgb(14, 14, 16);
-        background: #dee1e2;
-        display: block;
-        height: 25px;
-        margin: 8px;
-        :hover {
-            border-color: #ccc;
-        }
-        :focus{
-            border-color: #9147ff;
-            background: #fff;
-        }
-        
-    }
-    .submitbutton{
-        width: 140px;
-        height: 40px;
-        background-color: white;
-        color: black;
-        font-size: 12px;
-        font-weight: 500;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 30px;
-    }
-    .submitbutton:hover{
-        background-color: black;
-        color: white;
-        transition: 0.5s;
-        cursor: pointer;
-    }
-    .expertimage{
-        height: 45vh;
-    }
-    .loancontent{
-        color: rgb(183, 183, 183);
-        font-size: 10px;
-        font-weight: 500;
-        margin-left: 15px;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* background-color: #9e9ea7; */
         margin-top: 20px;
     }
+    .namediv{
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .firstname,.lastname{
+        width: 90%;
+        height: 40px;
+        padding: 5px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(21, 21, 21);
+    }
+    .iconinp{
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .iconinpimage{
+        width: 15px;
+    }
+    .inputconsult{
+        width: 90%;
+        height: 40px;
+        font-size: 12px;
+        color: white;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+    .inputconsult:hover{
+        background-color: transparent;
+        border: 0px solid transparent;
+        outline: none;
+        border: none;
+        box-shadow: none;
+        background-color: transparent;
+        outline: none !important;
+        border: none !important;
+        box-shadow: none !important;
+        background-color: transparent !important;
+    }
+    .inputconsult:focus{
+        outline: none;
+        border: 0px solid transparent;
+        border-color: inherit;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      outline: none !important;
+      border: none !important;
+      box-shadow: none !important;
+      background-color: transparent !important;
+    }
+    .inputconsult::placeholder{
+        color: grey;
+        font-weight: 500;
+        letter-spacing: 1px;
     
+    }
+    .submitbuttonconsult{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+    }
+    .submitbuttonbutton{
+        width: 150px;
+        height: 45px;
+        background-color: white;
+        color: black;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    .submitbuttonbutton:hover{
+        background-color: black;
+        color: white;
+        transition: 0.3s;
+        cursor: pointer;
+    }
 }
+
 
 
 
