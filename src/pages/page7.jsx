@@ -295,6 +295,7 @@ export default function Page7() {
           speed={40}
           pauseOnHover={true}
           className="testmarq"
+          direction="right"
         >
           <div className="testimonialcard">
             <div className="toptestimonialcard">
