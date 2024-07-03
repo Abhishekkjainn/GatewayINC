@@ -373,7 +373,7 @@ export default function Header() {
           </Link>
           <Link
             className="menuresplink linkstyle"
-            to={'/canada'}
+            to={'/uk'}
             onClick={() => setMenuOpen(false)}
           >
             <img
