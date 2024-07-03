@@ -26,6 +26,16 @@
     background-position: center;
     background-size: cover;
 }
+.page1australia{
+    background: url('./australiacountry.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.page1ireland{
+    background: url('./irelandcountry.jpg');
+    background-position: center;
+    background-size: cover;    
+}
 .mainheadcanada{
     display: flex;
     justify-content: center;

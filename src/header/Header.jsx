@@ -124,7 +124,7 @@ export default function Header() {
               </div>
             </div>
           </Link>
-          <div className="countrydiv">
+          <Link to={'/australia'} className="linkstyle countrydiv">
             <div className="countryimg canadadiv">
               <img
                 src="/australiaflag.png"
@@ -138,8 +138,8 @@ export default function Header() {
                 Study in Australia: Embrace Excellence and Adventure Down Under.
               </div>
             </div>
-          </div>
-          <div className="countrydiv">
+          </Link>
+          <Link to={'/germany'} className="linkstyle countrydiv">
             <div className="countryimg canadadiv">
               <img src="/germanyflag.png" alt="" className="countryflagimage" />
             </div>
@@ -150,8 +150,8 @@ export default function Header() {
                 Future.
               </div>
             </div>
-          </div>
-          <div className="countrydiv">
+          </Link>
+          <Link to={'/ireland'} className="linkstyle countrydiv">
             <div className="countryimg canadadiv">
               <img src="/irelandflag.png" alt="" className="countryflagimage" />
             </div>
@@ -162,7 +162,7 @@ export default function Header() {
                 and Modern Opportunity.
               </div>
             </div>
-          </div>
+          </Link>
         </div>
 
         {/* Test Prep Link */}
@@ -385,7 +385,7 @@ export default function Header() {
           </Link>
           <Link
             className="menuresplink linkstyle"
-            to={'/canada'}
+            to={'/australia'}
             onClick={() => setMenuOpen(false)}
           >
             <img
@@ -409,7 +409,7 @@ export default function Header() {
           </Link>
           <Link
             className="menuresplink linkstyle"
-            to={'/canada'}
+            to={'/germany'}
             onClick={() => setMenuOpen(false)}
           >
             <img
@@ -421,7 +421,7 @@ export default function Header() {
           </Link>
           <Link
             className="menuresplink linkstyle"
-            to={'/canada'}
+            to={'/ireland'}
             onClick={() => setMenuOpen(false)}
           >
             <img
