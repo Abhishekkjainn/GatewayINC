@@ -189,7 +189,7 @@ export default function USApage() {
                   <th>University Name</th>
                   <th>Location</th>
                   <th>Times Higher Education Ranking 2023 (Globally)</th>
-                  <th>Tuition Fee per year (USD)</th>
+                  <th>Approximate Tuition Fee per year (USD)</th>
                 </tr>
               </thead>
               <tbody>
@@ -260,7 +260,7 @@ export default function USApage() {
       </div>
       <div className="page2canada border">
         <div className="page2canadahead">
-          Visa Requirements for Internations Students
+          Visa Requirements for International Students
         </div>
         <div className="page2canadacontent ">
           International students intending to study in the United States

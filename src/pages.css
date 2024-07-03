@@ -48,35 +48,116 @@
     margin-left: 20px;
 }
 .college1{
-    background: url('/college1.jpg');
+    background: url('/collegeimages/Aston 1.jpg');
     background-position: center;
     background-size: cover;
 }
 .college2{
-    background: url('/college2.jpg');
+    background: url('/collegeimages/Coventry 3.jpg');
     background-position: center;
     background-size: cover;
 }
 .college3{
-    background: url('/college3.jpg');
+    background: url('/collegeimages/Curtin 1.jpg');
     background-position: center;
     background-size: cover;
 }
 .college4{
-    background: url('/college4.jpg');
+    background: url('/collegeimages/Dalhousie University 1.jpg');
     background-position: center;
     background-size: cover;
 }
 .college5{
-    background: url('/college5.jpg');
+    background: url('/collegeimages/Deakin 1.jpg');
     background-position: center;
     background-size: cover;
 }
 .college6{
-    background: url('/college6.jpg');
+    background: url('/collegeimages/Douglas 2.jpg');
     background-position: center;
     background-size: cover;
 }
+.college7{
+    background: url('/collegeimages/Edith Cowan Uni 1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college8{
+    background: url('/collegeimages/Fanshawe 3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college9{
+    background: url('/collegeimages/Humber 3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college10{
+    background: url('/collegeimages/Kings clg1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college11{
+    background: url('/collegeimages/Kingston 1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college12{
+    background: url('/collegeimages/Lakehead 1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college13{
+    background: url('/collegeimages/memorial 1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college14{
+    background: url('/collegeimages/RMIT 2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college15{
+    background: url('/collegeimages/Uni of Adelaide 1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college16{
+    background: url('/collegeimages/Uni of Greenwich 1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college17{
+    background: url('/collegeimages/Uni of Hertforshire 1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college18{
+    background: url('/collegeimages/Uni of new south wales 2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college19{
+    background: url('/collegeimages/Uni of Regina 2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college20{
+    background: url('/collegeimages/Uni of South Aus 1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college21{
+    background: url('/collegeimages/Uni of Western Aus 1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.college22{
+    background: url('/collegeimages/Uni of Windsor 1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
 .searchdivpage1{
     width: 100%;
     height: 80px;

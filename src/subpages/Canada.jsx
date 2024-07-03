@@ -44,7 +44,7 @@ export default function Canada() {
           representing over 28% of the international student body. In 2023,
           about 753,000 students received Canadian student visas. <br />
           <br /> Canada ranks <span className="bold"> 3rd globally </span> for
-          quality of life according to the U.S. News & World Report 2022. The
+          quality of life, according to the U.S. News & World Report 2022. The
           Times Higher Education rankings for 2023 include seven Canadian
           universities among the top 200 worldwide. Students from India, China,
           Korea, and other Asian countries are drawn to Canada for its
@@ -178,7 +178,7 @@ export default function Canada() {
                   <th>University Name</th>
                   <th>Location</th>
                   <th>Times Higher Education Ranking 2023 (Globally)</th>
-                  <th>Tuition Fee per year (CAD)</th>
+                  <th>Approximate Tuition Fee per year (CAD)</th>
                 </tr>
               </thead>
               <tbody>
@@ -251,7 +251,7 @@ export default function Canada() {
       </div>
       <div className="page2canada border">
         <div className="page2canadahead">
-          Visa Requirements for Internations Students
+          Visa Requirements for International Students
         </div>
         <div className="page2canadacontent ">
           International students planning to study in Canada require a study
@@ -289,8 +289,8 @@ export default function Canada() {
           backgrounds can seek these scholarships. Both the Canadian government
           and external entities offer these financial aids to alleviate the
           financial burden of studying abroad. Additionally, scholarships based
-          on financial need are also available, ensuring accessibility to
-          students from diverse economic background
+          on financial need are also available, ensuring accessibility for
+          students from diverse economic background.
           <br />
           <br />
           <div className="table">
