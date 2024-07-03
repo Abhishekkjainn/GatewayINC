@@ -431,6 +431,19 @@ export default function Header() {
             />
             <div className="menuresptag">Ireland</div>
           </Link>
+          <div className="menuresphead">Gallery</div>
+          <Link
+            className="menuresplink linkstyle"
+            to={'/gallery'}
+            onClick={() => setMenuOpen(false)}
+          >
+            <img
+              src="galleryimg.jpg"
+              alt="Canada Flag"
+              className="iconrespmenumob"
+            />
+            <div className="menuresptag">Gallery</div>
+          </Link>
           <div className="menuresphead">Tesp Prep</div>
           <Link
             className="menuresplink linkstyle"
