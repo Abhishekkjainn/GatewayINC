@@ -11,6 +11,7 @@ import Homepage from './mainpage';
 import Canada from './subpages/Canada';
 import USApage from './subpages/USA';
 import Gallery from './pages/gallery';
+import UK from './subpages/Uk';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/canada" element={<Canada />} />
         <Route path="/usa" element={<USApage />} />
+        <Route path="/uk" element={<UK />} />
       </Routes>
       <Page9 />
     </Router>

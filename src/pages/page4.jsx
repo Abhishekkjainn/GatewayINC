@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 export default function Page4() {
   return (
     <div className="page4">
@@ -21,7 +22,9 @@ export default function Page4() {
             </div>
           </div>
           <div className="bottomportion">
-            <div className="viewdetailsbutton">View Details</div>
+            <Link className="linkstyle viewdetailsbutton" to={'/canada'}>
+              View Details
+            </Link>
           </div>
         </div>
         <div className="pg4countrydiv ukcountrydiv">
@@ -38,7 +41,9 @@ export default function Page4() {
             </div>
           </div>
           <div className="bottomportion">
-            <div className="viewdetailsbutton">View Details</div>
+            <Link to={'/uk'} className=" linkstyle viewdetailsbutton">
+              View Details
+            </Link>
           </div>
         </div>
         <div className="pg4countrydiv australiacountrydiv">
@@ -55,7 +60,9 @@ export default function Page4() {
             </div>
           </div>
           <div className="bottomportion">
-            <div className="viewdetailsbutton">View Details</div>
+            <Link to={'/australia'} className="linkstyle viewdetailsbutton">
+              View Details
+            </Link>
           </div>
         </div>
         <div className="pg4countrydiv usacountrydiv">
@@ -73,7 +80,9 @@ export default function Page4() {
             </div>
           </div>
           <div className="bottomportion">
-            <div className="viewdetailsbutton">View Details</div>
+            <Link to={'/usa'} className="linkstyle viewdetailsbutton">
+              View Details
+            </Link>
           </div>
         </div>
         <div className="pg4countrydiv germanycountrydiv">
@@ -91,7 +100,9 @@ export default function Page4() {
             </div>
           </div>
           <div className="bottomportion">
-            <div className="viewdetailsbutton">View Details</div>
+            <Link to={'/germany'} className="linkstyle viewdetailsbutton">
+              View Details
+            </Link>
           </div>
         </div>
         <div className="pg4countrydiv irelandcountrydiv">
@@ -109,7 +120,9 @@ export default function Page4() {
             </div>
           </div>
           <div className="bottomportion">
-            <div className="viewdetailsbutton">View Details</div>
+            <Link to={'/ireland'} className="linkstyle viewdetailsbutton">
+              View Details
+            </Link>
           </div>
         </div>
       </div>

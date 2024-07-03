@@ -6,7 +6,7 @@ export default function USApage() {
     <div className="canadapage">
       <div className="page1canada page1usa">
         <div className="mainheadcanada">
-          <img src="usaflag.png" alt="Canada" className="canadaflagsubpage" />
+          <img src="/usaflag.png" alt="Canada" className="canadaflagsubpage" />
           <div className="underhead">
             Discover the Benefits of Studying in the USA
           </div>
@@ -117,7 +117,7 @@ export default function USApage() {
           research opportunities, preparing students for future-oriented
           industries.
           <br /> <br />
-          4. <span className="bold">Cultural Exposure: </span> CStudying in the
+          4. <span className="bold">Cultural Exposure: </span> Studying in the
           USA promotes cultural immersion and diverse networking opportunities,
           enhancing global perspectives and personal growth. <br /> <br />
           5. <span className="bold">Educational Flexibility: </span>The USA's

@@ -112,7 +112,7 @@ export default function Header() {
               </div>
             </div>
           </Link>
-          <div className="countrydiv">
+          <Link to={'/uk'} className="countrydiv linkstyle">
             <div className="countryimg canadadiv">
               <img src="/ukflag.png" alt="" className="countryflagimage" />
             </div>
@@ -123,7 +123,7 @@ export default function Header() {
                 Success.
               </div>
             </div>
-          </div>
+          </Link>
           <div className="countrydiv">
             <div className="countryimg canadadiv">
               <img

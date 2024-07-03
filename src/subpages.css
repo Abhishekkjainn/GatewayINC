@@ -21,6 +21,11 @@
     background-position: center;
     background-size: cover;
 }
+.page1uk{
+    background: url('./ukcountry.jpg');
+    background-position: center;
+    background-size: cover;
+}
 .mainheadcanada{
     display: flex;
     justify-content: center;
