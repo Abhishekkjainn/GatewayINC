@@ -2818,3 +2818,125 @@
         flex-direction: column;
     }
 }
+
+
+
+/*Gallery*/
+.gallery{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    background-color: white;
+}
+
+.galleryhead{
+    font-weight: 500;
+    font-size: 60px;
+    color: royalblue;
+}
+.galleryheaddiv{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.galleryimagesdiv{
+    width: 100%;
+    /* height: auto; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.galleryimageimg{
+    width: 400px;
+    border-radius: 40px;
+    margin: 20px;
+}
+
+@media (max-width:1000px) and (min-width:600px){
+    /*Gallery*/
+.gallery{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    background-color: white;
+}
+
+.galleryhead{
+    font-weight: 500;
+    font-size: 50px;
+    color: royalblue;
+}
+.galleryheaddiv{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.galleryimagesdiv{
+    width: 100%;
+    /* height: auto; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.galleryimageimg{
+    width: 300px;
+    border-radius: 40px;
+    margin: 20px;
+}
+}
+@media (max-width:600px){
+    /*Gallery*/
+.gallery{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    background-color: white;
+}
+
+.galleryhead{
+    font-weight: 500;
+    font-size: 40px;
+    color: royalblue;
+}
+.galleryheaddiv{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.galleryimagesdiv{
+    width: 100%;
+    /* height: auto; */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.galleryimageimg{
+    width: 120px;
+    border-radius: 15px;
+    margin: 10px;
+}
+}

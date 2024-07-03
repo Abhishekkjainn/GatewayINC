@@ -315,10 +315,10 @@ export default function Header() {
         </div>
 
         {/* Gallery Link */}
-        <div className="linkdiv">
+        <Link className="linkdiv linkstyle" to={'/gallery'}>
           <div className="linktag">Gallery</div>
           <div className="undercircle"></div>
-        </div>
+        </Link>
       </div>
       <div className="actionbuttondiv">
         <button className="actionbutton">
