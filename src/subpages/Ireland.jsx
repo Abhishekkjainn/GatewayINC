@@ -415,6 +415,7 @@ export default function Ireland() {
           </div>
         </div>
       </div>
+      <Page8 />
     </div>
   );
 }
