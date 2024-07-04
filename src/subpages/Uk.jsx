@@ -19,11 +19,11 @@ export default function UK() {
       <div className="page2canada">
         <div className="page2canadahead">Study In UK.</div>
         <div className="page2canadacontent">
-          &nbsp;<span className="bold">United Kingdom</span> (UK) stands as a
-          premier destination for
-          <span className="bold">international students</span> seeking top-tier
-          educational opportunities across a diverse range of fields. Renowned
-          for its{' '}
+          &nbsp;<span className="bold">The United Kingdom</span> (UK) stands as
+          a premier destination for
+          <span className="bold">&nbsp;international students</span> seeking
+          top-tier educational opportunities across a diverse range of fields.
+          Renowned for its{' '}
           <span className="bold">
             rich academic heritage and globally recognized universities
           </span>
@@ -67,7 +67,7 @@ export default function UK() {
           <span className="bold">
             {' '}
             rich cultural experience, fostering personal growth and global
-            perspective.
+            perspective. &nbsp;
           </span>
           Moreover, UK degrees are internationally recognized, enhancing
           graduates' employability and opening doors to a global network of

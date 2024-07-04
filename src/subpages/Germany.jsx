@@ -5,7 +5,7 @@ import '../subpages.css';
 export default function Germany() {
   return (
     <div className="canadapage">
-      <div className="page1canada page1australia">
+      <div className="page1canada page1germany">
         <div className="mainheadcanada">
           <img
             src="germanyflag.png"
@@ -259,8 +259,8 @@ export default function Germany() {
           Visa applications can typically be submitted online or at the
           respective German consulate or embassy. The application fee for a
           German Student Visa varies by country but generally ranges around EUR
-          75 to EUR 80. Biometric data (fingerprints and photograph) may also be
-          required during the application process.
+          75 to EUR 80. Biometric data (fingerprints and photographs) may also
+          be required during the application process.
           <br />
           <br />
           Processing times for the Student Visa vary but usually take between 4

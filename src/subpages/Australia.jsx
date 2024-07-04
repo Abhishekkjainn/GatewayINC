@@ -79,7 +79,7 @@ export default function Australia() {
       <Page2alt />
       <div className="page2canada white">
         <div className="page2canadahead">
-          Top 5 Benefits of Studying in Canada
+          Top 5 Benefits of Studying in Australia
         </div>
         <div className="page2canadacontent ">
           Australia offers a diverse array of higher education opportunities for
@@ -87,7 +87,7 @@ export default function Australia() {
           Australian universities, 2 international universities, and 1 private
           specialty university. Additionally, Technical and Further Education
           (TAFE) institutions provide diploma and vocational training programs.
-          Australian universities offer a variety of courses such as
+          Australian universities offer a variety of courses, such as
           undergraduate degrees, postgraduate programs (available online,
           hybrid, and offline), short-term training, skills trade training,
           professional license exam preparation, certificates, and language
@@ -100,7 +100,7 @@ export default function Australia() {
           home to some of the world's leading universities, known for their high
           academic standards, innovative research, and emphasis on critical
           thinking and practical skills. This ensures students receive a quality
-          education that is recognized globally <br /> <br />
+          education that is recognized globally. <br /> <br />
           2. <span className="bold">Multicultural Environment:</span> With a
           diverse and inclusive community, international students feel welcomed
           and supported. This multicultural environment provides a rich cultural
@@ -112,7 +112,7 @@ export default function Australia() {
           Additionally, the country's stunning natural landscapes and outdoor
           lifestyle provide endless opportunities for adventure and exploration.
           <br /> <br />
-          4. <span className="bold">Top Universities: </span> Canada's
+          4. <span className="bold">Top Universities: </span> Australia's
           universities consistently achieve top global rankings, with nine
           institutions placed in the top 200 by QS Rankings and seven by THE
           Rankings 2023. They offer access to an international research network
@@ -134,11 +134,11 @@ export default function Australia() {
           programs. Undergraduates can pursue Bachelor's degrees, typically
           completed in 3 to 4 years. Graduate options include Master's programs
           spanning 1 to 2 years and Doctoral programs lasting 3 to 4 years,
-          alongside postgraduate diplomas and certificates that usually take 6
+          along with postgraduate diplomas and certificates that usually take 6
           months to 2 years to complete. Emphasizing hands-on learning, these
           programs equip students with practical insights and valuable academic
-          expertise in their respective fields For more reasons to study in
-          Canada, see below. <br />
+          expertise in their respective fields. For more reasons to study in
+          Australia, see below. <br />
           <br />
           1. <span className="bold">Computer Science</span>
           <br />

@@ -6,7 +6,7 @@
 .page1canada{
     width: 100%;
     height: 100vh;
-    background: url('./canadapage.jpg');
+    background: url('../canadapage.jpg');
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -17,22 +17,27 @@
     flex-direction: column;
 }
 .page1usa{
-    background: url('./usacountry.jpg');
+    background: url('../usacountry.jpg');
     background-position: center;
     background-size: cover;
 }
 .page1uk{
-    background: url('./ukcountry.jpg');
+    background: url('../ukcountry.jpg');
     background-position: center;
     background-size: cover;
 }
 .page1australia{
-    background: url('./australiacountry.jpg');
+    background: url('../australiacountry.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.page1germany{
+    background: url('../germanycountry.jpg');
     background-position: center;
     background-size: cover;
 }
 .page1ireland{
-    background: url('./irelandcountry.jpg');
+    background: url('../irelandcountry.jpg');
     background-position: center;
     background-size: cover;    
 }
