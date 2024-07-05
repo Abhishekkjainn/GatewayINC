@@ -96,33 +96,27 @@ export default function IELTS() {
           Get to know our exciting features:
           <br />
           <br />
-          1. <span className="bold">Experienced Tutors: </span>
-          Our tutors are meticulously trained to provide an optimal study
-          experience.
+          1. <span className="bold">Expert Tutors: </span>
+          Our tutors are highly trained to deliver effective study sessions.
           <br />
           <br />
-          2. <span className="bold">Standardized Content: </span>
-          Prepare at the level of the actual exam with materials that are
-          neither too basic nor too advanced.
+          2. <span className="bold">Comprehensive Material: </span>
+          We have a library  full of resources where students can practice, and
+          we also issue books to practice at home.
           <br />
           <br />
-          3. <span className="bold">Comprehensive Support: </span>
-          Receive assistance from our trainers via email, telephone, and social
-          media whenever you need it.
+          3. <span className="bold">Supportive Environment: </span>
+          Only 10 students per batch for maximum attention.
           <br />
           <br />
-          4. <span className="bold">Gateway Prep Portal: </span>
-          Access course videos, study guides, and more, enhanced with
-          gamification features.
+          4. <span className="bold">Practice and Mock Tests: </span>
+          We conduct regular module tests as well as full mock tests to prepare
+          students effectively and student them learn time management.
           <br />
           <br />
-          5. <span className="bold">Simulated Test Engine: </span>
-          Experience the real exam environment with our simulated test engine.
+          5. <span className="bold">Audio Visual class room : </span>
+          Visions for better understanding.
           <br />
-          <br />
-          6. <span className="bold">Mock Tests: </span>
-          Hone your skills with multiple sectional and full-length mock tests
-          from the comfort of your home.
           <br />
           <br />
         </div>

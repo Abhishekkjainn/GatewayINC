@@ -17,6 +17,12 @@ import IELTS from './subpages/ieltspage';
 import TOEFL from './subpages/toeflpage';
 import PET from './subpages/PET';
 import Eligibility from './header/Eligibility';
+import SOPLOR from './subpages/SOPwriting';
+import Accomodation from './subpages/Accomodation';
+import ForexServices from './subpages/Forex';
+import Visa from './subpages/Visa';
+import AirTickets from './subpages/Airtickets';
+import EducationLoan from './subpages/Educationloan';
 
 function App() {
   return (
@@ -35,6 +41,12 @@ function App() {
         <Route path="/toefl" element={<TOEFL />} />
         <Route path="/pte" element={<PET />} />
         <Route path="/check-your-eligibility" element={<Eligibility />} />
+        <Route path="/SOP-LOR-Writing" element={<SOPLOR />} />
+        <Route path="/accomodation" element={<Accomodation />} />
+        <Route path="/forex" element={<ForexServices />} />
+        <Route path="/visa" element={<Visa />} />
+        <Route path="/air-tickets" element={<AirTickets />} />
+        <Route path="/education-loan" element={<EducationLoan />} />
       </Routes>
       <Page9 />
     </Router>

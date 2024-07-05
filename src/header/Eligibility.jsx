@@ -20,6 +20,11 @@ export default function Eligibility() {
       return;
     }
 
+    if (/^[0-5]/.test(wpno)) {
+      toast.error('Invalid Phone Number\nPlease Write a Valid Phone Number.');
+      return;
+    }
+
     // Data to submit
     const data = {
       prefcountry,
@@ -40,11 +45,11 @@ export default function Eligibility() {
     })
       .then((response) => response.json())
       .then((data) => {
+        setPrefCountry('');
+        setLatestEducation('');
+        setPercentage('');
+        setWpNo('');
         toast.success('Submitted Succesfully!\nWe will Contact You Soon');
-        setFirstName('');
-        setLastName('');
-        setPhone('');
-        setEmail('');
         console.log(data);
       })
       .catch((error) => {

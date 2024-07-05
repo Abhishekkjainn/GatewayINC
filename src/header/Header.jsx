@@ -238,7 +238,7 @@ export default function Header() {
           onMouseEnter={handleBannerMouseEnter}
           onMouseLeave={handleBannerMouseLeave}
         >
-          <div className="countrydiv">
+          <Link to={'/SOP-LOR-Writing'} className="countrydiv linkstyle">
             <div className="countryimg canadadiv">
               <img src="/lorwriting.jpg" alt="" className="countryflagimage" />
             </div>
@@ -248,8 +248,8 @@ export default function Header() {
                 We provide top-quality professional SOP writing
               </div>
             </div>
-          </div>
-          <div className="countrydiv">
+          </Link>
+          <Link to={'/accomodation'} className="linkstyle countrydiv">
             <div className="countryimg canadadiv">
               <img
                 src="/accomodation.jpg"
@@ -263,8 +263,8 @@ export default function Header() {
                 Feel at home, no matter where life takes you.
               </div>
             </div>
-          </div>
-          <div className="countrydiv">
+          </Link>
+          <Link to={'/forex'} className="linkstyle countrydiv">
             <div className="countryimg canadadiv">
               <img src="/simcard.jpg" alt="" className="countryflagimage" />
             </div>
@@ -274,8 +274,8 @@ export default function Header() {
                 Immerse yourself in a truly global experience.
               </div>
             </div>
-          </div>
-          <div className="countrydiv">
+          </Link>
+          <Link to={'/visa'} className="linkstyle countrydiv">
             <div className="countryimg canadadiv">
               <img src="/visa.jpg" alt="" className="countryflagimage" />
             </div>
@@ -285,8 +285,8 @@ export default function Header() {
                 We Help you with VISA Immigrations.
               </div>
             </div>
-          </div>
-          <div className="countrydiv">
+          </Link>
+          <Link to={'/air-tickets'} className="linkstyle countrydiv">
             <div className="countryimg canadadiv">
               <img src="/airtickets.jpg" alt="" className="countryflagimage" />
             </div>
@@ -296,8 +296,8 @@ export default function Header() {
                 We Help you Fly in Sky as well as in your life.
               </div>
             </div>
-          </div>
-          <div className="countrydiv">
+          </Link>
+          <Link to={'/education-loan'} className="countrydiv">
             <div className="countryimg canadadiv">
               <img
                 src="/educationloan.jpg"
@@ -311,7 +311,7 @@ export default function Header() {
                 Get Your Education Loan in Minutes with Us.
               </div>
             </div>
-          </div>
+          </Link>
         </div>
 
         {/* Gallery Link */}
@@ -484,7 +484,7 @@ export default function Header() {
           <div className="menuresphead">Services Provided</div>
           <Link
             className="menuresplink linkstyle"
-            to={'/canada'}
+            to={'/SOP-LOR-Writing'}
             onClick={() => setMenuOpen(false)}
           >
             <img
@@ -496,7 +496,7 @@ export default function Header() {
           </Link>
           <Link
             className="menuresplink linkstyle"
-            to={'/canada'}
+            to={'/accomodation'}
             onClick={() => setMenuOpen(false)}
           >
             <img
@@ -508,7 +508,7 @@ export default function Header() {
           </Link>
           <Link
             className="menuresplink linkstyle"
-            to={'/canada'}
+            to={'/forex'}
             onClick={() => setMenuOpen(false)}
           >
             <img
@@ -520,7 +520,7 @@ export default function Header() {
           </Link>
           <Link
             className="menuresplink linkstyle"
-            to={'/canada'}
+            to={'/visa'}
             onClick={() => setMenuOpen(false)}
           >
             <img src="visa.jpg" alt="Canada Flag" className="iconrespmenumob" />
@@ -528,7 +528,7 @@ export default function Header() {
           </Link>
           <Link
             className="menuresplink linkstyle"
-            to={'/canada'}
+            to={'/air-tickets'}
             onClick={() => setMenuOpen(false)}
           >
             <img
@@ -540,7 +540,7 @@ export default function Header() {
           </Link>
           <Link
             className="menuresplink linkstyle"
-            to={'/canada'}
+            to={'/education-loan'}
             onClick={() => setMenuOpen(false)}
           >
             <img

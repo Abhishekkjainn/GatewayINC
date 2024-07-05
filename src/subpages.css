@@ -56,6 +56,36 @@
     background-position: center;
     background-size: cover;
 }
+.page1sop{
+    background: url('../sopimage.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.page1accomodation{
+    background: url('../accomodationimage.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.page1forex{
+    background: url('../foreximage.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.page1visa{
+    background: url('../visa.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.page1airtickets{
+    background: url('../airtickets.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.page1educationloan{
+    background: url('../educationloan.jpg');
+    background-position: center;
+    background-size: cover;
+}
 .mainheadcanada{
     display: flex;
     justify-content: center;

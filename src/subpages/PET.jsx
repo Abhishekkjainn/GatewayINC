@@ -78,24 +78,26 @@ export default function PET() {
           Discover our key features:
           <br />
           <br />
-          1. <span className="bold">Expert Tutors:</span> Our tutors are highly
-          trained to deliver effective study sessions.
+          1. <span className="bold">Expert Tutors: </span>
+          Our tutors are highly trained to deliver effective study sessions.
           <br />
           <br />
-          2. <span className="bold">Comprehensive Material:</span> Access
-          well-balanced study materials aligned with PTE standards.
+          2. <span className="bold">Comprehensive Material: </span>
+          We have a library  full of resources where students can practice, and
+          we also issue books to practice at home.
           <br />
           <br />
-          3. <span className="bold">Supportive Environment:</span> Get guidance
-          and support via email, phone, and social media.
+          3. <span className="bold">Supportive Environment: </span>
+          Only 10 students per batch for maximum attention.
           <br />
           <br />
-          4. <span className="bold">PTE Prep Portal:</span> Utilize our
-          interactive platform with videos and gamified learning.
+          4. <span className="bold">Practice and Mock Tests: </span>
+          We conduct regular module tests as well as full mock tests to prepare
+          students effectively and student them learn time management.
           <br />
           <br />
-          5. <span className="bold">Practice Tests:</span> Assess your progress
-          with simulated PTE exams.
+          5. <span className="bold">Audio Visual class room : </span>
+          Visions for better understanding.
           <br />
           <br />
           6. <span className="bold">Mock Exams:</span> Prepare effectively with
