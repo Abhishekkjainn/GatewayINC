@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 export default function Page5() {
   const listItems = [
     'Flexible & Competitive Interest rates',
@@ -35,7 +36,12 @@ export default function Page5() {
               process.
             </div>
           </div>
-          <div className="talktoexpertbutton">Check Your Eligibility</div>
+          <Link
+            to={'/check-your-eligibility'}
+            className=" linkstyle talktoexpertbutton"
+          >
+            Check Your Eligibility
+          </Link>
         </div>
         <div className="educationloanimagediv">
           <img

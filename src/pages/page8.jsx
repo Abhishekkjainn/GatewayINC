@@ -52,7 +52,7 @@ export default function Page8() {
   };
 
   return (
-    <div className="page8">
+    <div className="page8 eligibility">
       <ToastContainer />
       <div className="consultbanner">
         <div className="consultimage">

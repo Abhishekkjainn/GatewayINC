@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 export default function Page2alt() {
   return (
     <div className="page2alt">
@@ -10,9 +11,12 @@ export default function Page2alt() {
             Find Programs Aligned with Your Eligibility from a Vast Selection
           </div>
         </div>
-        <div className="buttondivbanner">
+        <Link
+          to={'/check-your-eligibility'}
+          className="linkstyle buttondivbanner"
+        >
           <div className="checkbutton">Check Eligibility</div>
-        </div>
+        </Link>
       </div>
     </div>
   );

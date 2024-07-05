@@ -16,6 +16,7 @@ import Ireland from './subpages/Ireland';
 import IELTS from './subpages/ieltspage';
 import TOEFL from './subpages/toeflpage';
 import PET from './subpages/PET';
+import Eligibility from './header/Eligibility';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/ielts" element={<IELTS />} />
         <Route path="/toefl" element={<TOEFL />} />
         <Route path="/pte" element={<PET />} />
+        <Route path="/check-your-eligibility" element={<Eligibility />} />
       </Routes>
       <Page9 />
     </Router>

@@ -452,3 +452,13 @@ body{
 }
 
 
+.eligibility{
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
