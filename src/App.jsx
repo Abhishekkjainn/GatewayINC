@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import './App.css';
 import './pages.css';
 import Header from './header/Header';
@@ -15,6 +13,9 @@ import UK from './subpages/Uk';
 import Australia from './subpages/Australia';
 import Germany from './subpages/Germany';
 import Ireland from './subpages/Ireland';
+import IELTS from './subpages/ieltspage';
+import TOEFL from './subpages/toeflpage';
+import PET from './subpages/PET';
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
         <Route path="/australia" element={<Australia />} />
         <Route path="/germany" element={<Germany />} />
         <Route path="/ireland" element={<Ireland />} />
+        <Route path="/ielts" element={<IELTS />} />
+        <Route path="/toefl" element={<TOEFL />} />
+        <Route path="/pte" element={<PET />} />
       </Routes>
       <Page9 />
     </Router>

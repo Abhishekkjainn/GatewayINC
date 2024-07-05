@@ -41,6 +41,21 @@
     background-position: center;
     background-size: cover;    
 }
+.page1ielts{
+    background: url('../IELTSpicture.jpg');
+    background-position: center;
+    background-size: cover; 
+}
+.page1toefl{
+    background: url('../TOEFLimage.png');
+    background-position: center;
+    background-size: cover;
+}
+.page1PET{
+    background: url('../pteimage.jpg');
+    background-position: center;
+    background-size: cover;
+}
 .mainheadcanada{
     display: flex;
     justify-content: center;

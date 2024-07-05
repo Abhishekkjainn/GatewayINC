@@ -183,7 +183,7 @@ export default function Header() {
           onMouseEnter={handleBannerMouseEnter}
           onMouseLeave={handleBannerMouseLeave}
         >
-          <div className="countrydiv">
+          <Link to={'/ielts'} className="linkstyle countrydiv">
             <div className="countryimg canadadiv">
               <img src="/ieltslogo.png" alt="" className="countryflagimage" />
             </div>
@@ -194,8 +194,8 @@ export default function Header() {
                 Proficiency.
               </div>
             </div>
-          </div>
-          <div className="countrydiv">
+          </Link>
+          <Link to={'/toefl'} className="linkstyle countrydiv">
             <div className="countryimg canadadiv">
               <img src="/TOEFLlogo.png" alt="" className="countryflagimage" />
             </div>
@@ -205,8 +205,8 @@ export default function Header() {
                 TOEFL: Your Key to Global Success and Academic Excellence.
               </div>
             </div>
-          </div>
-          <div className="countrydiv">
+          </Link>
+          <Link to={'/pte'} className="countrydiv linkstyle">
             <div className="countryimg canadadiv">
               <img src="/ptelogo.png" alt="" className="countryflagimage" />
             </div>
@@ -217,7 +217,7 @@ export default function Header() {
                 Confidence and Accuracy.
               </div>
             </div>
-          </div>
+          </Link>
         </div>
 
         {/* Services Link */}
@@ -447,7 +447,7 @@ export default function Header() {
           <div className="menuresphead">Tesp Prep</div>
           <Link
             className="menuresplink linkstyle"
-            to={'/canada'}
+            to={'/ielts'}
             onClick={() => setMenuOpen(false)}
           >
             <img
@@ -459,7 +459,7 @@ export default function Header() {
           </Link>
           <Link
             className="menuresplink linkstyle"
-            to={'/canada'}
+            to={'/pte'}
             onClick={() => setMenuOpen(false)}
           >
             <img
@@ -471,7 +471,7 @@ export default function Header() {
           </Link>
           <Link
             className="menuresplink linkstyle"
-            to={'/canada'}
+            to={'/toefl'}
             onClick={() => setMenuOpen(false)}
           >
             <img
