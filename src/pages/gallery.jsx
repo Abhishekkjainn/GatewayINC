@@ -1,4 +1,8 @@
+import { useEffect } from 'react';
 export default function Gallery() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="gallery">
       <div className="galleryheaddiv">

@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import '../App.css';
@@ -8,6 +8,10 @@ export default function Eligibility() {
   const [latestEducation, setLatestEducation] = useState('');
   const [percent, setPercentage] = useState('');
   const [wpno, setWpNo] = useState('');
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const handleSubmit = () => {
     if (!prefcountry || !latestEducation || !percent || !wpno) {

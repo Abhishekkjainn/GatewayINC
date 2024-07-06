@@ -1,8 +1,12 @@
 import Page2alt from '../pages/page2alt';
 import Page8 from '../pages/page8';
 import '../subpages.css';
+import { useEffect } from 'react';
 
 export default function AirTickets() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="canadapage">
       <div className="page1canada page1airtickets">
