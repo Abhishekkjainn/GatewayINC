@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import './pages.css';
 import Header from './header/Header';
@@ -23,15 +23,41 @@ import ForexServices from './subpages/Forex';
 import Visa from './subpages/Visa';
 import AirTickets from './subpages/Airtickets';
 import EducationLoan from './subpages/Educationloan';
+import { collection, getDocs } from 'firebase/firestore';
+import { firestore } from './firebase';
 
 function App() {
+  const [homeData, setHomeData] = useState({});
+  const [canadaData, setCanadaData] = useState({}); // data object to store fetched data
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const querySnapshot = await getDocs(
+        collection(firestore, 'DynamicFirebase')
+      );
+      querySnapshot.forEach((doc) => {
+        if (doc.id === 'Homepage') {
+          setHomeData(doc.data()); // Set the data for Homepage
+        }
+        if (doc.id === 'Canadapage') {
+          setCanadaData(doc.data()); // Set the data for Homepage
+        }
+      });
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<Homepage homeData={homeData} />} />
         <Route path="/gallery" element={<Gallery />} />
-        <Route path="/canada" element={<Canada />} />
+        <Route
+          path="/canada"
+          element={<Canada canadaData={canadaData} homeData={homeData} />}
+        />
         <Route path="/usa" element={<USApage />} />
         <Route path="/uk" element={<UK />} />
         <Route path="/australia" element={<Australia />} />

@@ -11,24 +11,7 @@ import Page2alt from './pages/page2alt';
 import { collection, getDocs } from 'firebase/firestore';
 import { firestore } from './firebase';
 
-export default function Homepage() {
-  const [homeData, setHomeData] = useState({}); // data object to store fetched data
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const querySnapshot = await getDocs(
-        collection(firestore, 'DynamicFirebase')
-      );
-      querySnapshot.forEach((doc) => {
-        if (doc.id === 'Homepage') {
-          setHomeData(doc.data()); // Set the data for Homepage
-        }
-      });
-    };
-
-    fetchData();
-  }, []);
-
+export default function Homepage({ homeData }) {
   return (
     <>
       <Page1 homeData={homeData} />

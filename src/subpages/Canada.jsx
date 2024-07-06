@@ -2,7 +2,7 @@ import Page2alt from '../pages/page2alt';
 import Page8 from '../pages/page8';
 import '../subpages.css';
 import { useEffect } from 'react';
-export default function Canada() {
+export default function Canada({ canadaData, homeData }) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -15,48 +15,19 @@ export default function Canada() {
             alt="Canada"
             className="canadaflagsubpage"
           />
-          <div className="underhead">
-            Discover an Exceptional Learning Experience!
-          </div>
+          <div className="underhead">{canadaData.canadapageheading}</div>
           <div className="summarysubpage">
-            Our specialists simplify your journey to study in Canada. Get
-            comprehensive information and step-by-step support for a seamless
-            transition.
+            {canadaData.canadapagesubheading}
           </div>
           <div className="enquirybutton">Send Enquiry</div>
         </div>
       </div>
       <div className="page2canada">
-        <div className="page2canadahead">Study In Canada</div>
-        <div className="page2canadacontent">
-          Interested in studying in Canada? With close to half a million
-          international students, Canada is a premier destination known for its
-          <span className="bold">
-            &nbsp; high-quality education, affordable tuition, and
-            straightforward visa process
-          </span>
-          . The country offers an excellent standard of living,{' '}
-          <span className="bold">
-            {' '}
-            diverse educational environments, and abundant career opportunities.
-          </span>{' '}
-          <br />
-          <br /> Over the past decade, the number of international students in
-          Canada has tripled, with many of its esteemed institutions
-          consistently ranking high globally. Indian student enrollment in
-          Canada has surged by 260%, reaching 800,000 students in 2022,
-          representing over 28% of the international student body. In 2023,
-          about 753,000 students received Canadian student visas. <br />
-          <br /> Canada ranks <span className="bold"> 3rd globally </span> for
-          quality of life, according to the U.S. News & World Report 2022. The
-          Times Higher Education rankings for 2023 include seven Canadian
-          universities among the top 200 worldwide. Students from India, China,
-          Korea, and other Asian countries are drawn to Canada for its
-          <span className="bold">
-            {' '}
-            welcoming, safe, and friendly environment.
-          </span>
-        </div>
+        <div className="page2canadahead">{canadaData.canadapage1heading}</div>
+        <div
+          className="page2canadacontent"
+          dangerouslySetInnerHTML={{ __html: canadaData.canadapage1content }}
+        ></div>
       </div>
       <div className="page2canada border">
         <div className="page2canadahead">Why Choose Canada?</div>
@@ -80,7 +51,7 @@ export default function Canada() {
           institutions.
         </div>
       </div>
-      <Page2alt />
+      <Page2alt homeData={homeData} />
       <div className="page2canada white">
         <div className="page2canadahead">
           Top 5 Benefits of Studying in Canada
@@ -386,7 +357,7 @@ export default function Canada() {
           </div>
         </div>
       </div>
-      <Page8 />
+      <Page8 homeData={homeData} />
     </div>
   );
 }
