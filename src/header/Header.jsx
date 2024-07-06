@@ -171,7 +171,7 @@ export default function Header() {
           onMouseEnter={() => handleMouseEnter('testprep')}
           onMouseLeave={handleMouseLeave}
         >
-          <div className="linktag">Test Prep</div>
+          <div className="linktag">Coaching Services</div>
           <div className="undercircle"></div>
         </div>
         <div
@@ -444,7 +444,7 @@ export default function Header() {
             />
             <div className="menuresptag">Gallery</div>
           </Link>
-          <div className="menuresphead">Tesp Prep</div>
+          <div className="menuresphead">Coaching Services</div>
           <Link
             className="menuresplink linkstyle"
             to={'/ielts'}

@@ -53,8 +53,8 @@ export default function Accommodation() {
           Our <span className="bold">ongoing support</span> doesn't end once
           you've settled in. We provide continuous assistance and are available
           to address any issues or concerns you may have during your stay. With
-          Gateway-inc, you can focus on your studies and enjoy your
-          international experience without the worry of accommodation
+          Gateway-Inc, you can focus on your studies and enjoy your
+          international experience without the worry about accommodation
           challenges. <br />
         </div>
       </div>

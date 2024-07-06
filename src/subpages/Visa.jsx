@@ -66,7 +66,7 @@ export default function Visa() {
           reasons for denial and assist in preparing a robust appeal or
           reapplication, improving your chances of success. <br />
           <br />
-          With Gateway-inc, you benefit from extensive support and expert advice
+          With Gateway-Inc, you benefit from extensive support and expert advice
           throughout your visa application process, allowing you to focus on
           your studies and prepare for your international adventure with peace
           of mind. <br />

@@ -19,6 +19,16 @@ export default function Page8() {
       return;
     }
 
+    if (/^[0-5]/.test(phone)) {
+      toast.error('Invalid Phone Number\nPlease Write a Valid Phone Number.');
+      return;
+    }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      toast.error('Invalid email format. Please enter a valid email.');
+      return;
+    }
+
     // Data to submit
     const data = {
       name: `${firstName} ${lastName}`,

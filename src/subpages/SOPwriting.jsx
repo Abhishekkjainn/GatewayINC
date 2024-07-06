@@ -37,7 +37,7 @@ export default function SOPLOR() {
           strengths and aspirations. Our team personalizes your SOP to align
           with your unique background and goals and ensures your SOP is polished
           and error-free through meticulous proofreading. We guarantee SOPs of
-          the highest quality, enhancing your application, and deliver your SOP
+          the highest quality, enhance your application, and deliver your SOP
           promptly without compromising on quality. Complimentary edits are
           available to ensure your SOP meets your expectations. <br />
           <br />
@@ -53,7 +53,7 @@ export default function SOPLOR() {
           specific situation. <br />
           <br />
           Our <span className="bold"> recommendation letter services</span>{' '}
-          draft letters for your professors, colleagues, or associates to sign,
+          drafts letters for your professors, colleagues, or associates to sign,
           ensuring they reflect your strengths and achievements. Our skilled
           writers help you compose scholarship essays that showcase your
           knowledge and contributions, increasing your chances of securing
@@ -63,7 +63,7 @@ export default function SOPLOR() {
           develop resumes that enhance your prospects for admission or
           employment. Lastly, we provide thorough reviews of your assignments,
           offering constructive feedback to help you improve and excel. With
-          Gateway-inc, you receive comprehensive support and expertly crafted
+          Gateway-Inc, you receive comprehensive support and expertly crafted
           documents to enhance your academic and professional applications.{' '}
           <br />
         </div>

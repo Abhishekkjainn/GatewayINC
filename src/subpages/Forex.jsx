@@ -70,7 +70,7 @@ export default function ForexServices() {
           analyze the market and provide timely updates, helping you make the
           best decisions regarding your forex needs. <br />
           <br />
-          With Gateway-inc, you receive comprehensive support and expert
+          With Gateway-Inc, you receive comprehensive support and expert
           guidance to manage your forex requirements efficiently, allowing you
           to focus on your studies and enjoy your international experience
           without financial worries. <br />

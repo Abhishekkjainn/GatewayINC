@@ -71,7 +71,7 @@ export default function AirTickets() {
           emergency support during travel, our dedicated team is available to
           provide prompt and reliable assistance. <br />
           <br />
-          With Gateway-inc, you receive comprehensive support and reliable air
+          With Gateway-Inc, you receive comprehensive support and reliable air
           ticketing services tailored to your student travel needs. Enjoy peace
           of mind knowing that your travel arrangements are handled with
           professionalism and efficiency, allowing you to focus on your academic
