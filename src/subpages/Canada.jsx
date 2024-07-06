@@ -30,104 +30,26 @@ export default function Canada({ canadaData, homeData }) {
         ></div>
       </div>
       <div className="page2canada border">
-        <div className="page2canadahead">Why Choose Canada?</div>
-        <div className="page2canadacontent">
-          Canada stands out as a favored destination for{' '}
-          <span className="bold">
-            {' '}
-            international students due to its high-quality education, affordable
-            tuition, globally recognized degrees, and excellent living
-            standards.
-          </span>{' '}
-          The country offers a seamless student visa process and numerous job
-          opportunities, making it a preferred choice for students worldwide,
-          including a significant number from India. <br />
-          <br /> According to Immigration, Refugees and Citizenship Canada
-          (IRCC) data for 2022, Canada hosted 551,405 international students
-          from 184 countries, with 226,450 hailing from India. As the
-          second-largest country in the world, Canada boasts renowned cities
-          like Toronto and Vancouver, celebrated for their breathtaking
-          landscapes, rich cultural diversity, and exceptional educational
-          institutions.
-        </div>
+        <div className="page2canadahead">{canadaData.canadapage2heading}</div>
+        <div
+          className="page2canadacontent"
+          dangerouslySetInnerHTML={{ __html: canadaData.canadapage2content }}
+        ></div>
       </div>
       <Page2alt homeData={homeData} />
       <div className="page2canada white">
-        <div className="page2canadahead">
-          Top 5 Benefits of Studying in Canada
-        </div>
-        <div className="page2canadacontent ">
-          Canada offers a diverse array of higher education opportunities for
-          international students, including 15 research institutions, 100 public
-          universities, and 86 private colleges. Additionally, community
-          colleges provide diploma programs. Canadian universities offer a
-          variety of courses, such as post-secondary diplomas, certificates,
-          postgraduate programs (available online, hybrid, and offline),
-          short-term training, skills trade training, professional license exam
-          preparation, bachelor's degrees, and language training in English and
-          French. Indian students can pursue education in Canada after 12th
-          grade, with numerous institutions offering English-taught programs.
-          For more reasons to study in Canada, see below. <br />
-          <br />
-          1. <span className="bold">Easy Visa Policy: </span> The Student Direct
-          Stream (SDS) offers a fast-track option, speeding up the student visa
-          application process to be completed within 20 working days. <br />{' '}
-          <br />
-          2. <span className="bold">Quality Education: </span> Canada provides
-          high-quality education at affordable costs, featuring top-ranked
-          universities and a wide array of scholarship opportunities. <br />{' '}
-          <br />
-          3. <span className="bold">Huge Job Market: </span> The Canadian job
-          market offers a range of options for both locals and immigrants,
-          ensuring competitive salaries. <br /> <br />
-          4. <span className="bold">Top Universities: </span> Canada's
-          universities consistently achieve top global rankings, with nine
-          institutions placed in the top 200 by QS Rankings and seven by THE
-          Rankings 2023. They offer access to an international research network
-          and strong employment prospects. <br /> <br />
-          5. <span className="bold">Affordability: </span>In contrast to the
-          United States and the United Kingdom, Canada provides more economical
-          tuition fees, making it a practical choice for Indian students. The
-          cost of Canadian education is budget-friendly, typically ranging from
-          20 to 24 lakhs for the entire duration of study.
-          <br /> <br />
-        </div>
+        <div className="page2canadahead">{canadaData.canadapage3heading}</div>
+        <div
+          className="page2canadacontent"
+          dangerouslySetInnerHTML={{ __html: canadaData.canadapage3content }}
+        ></div>
       </div>
       <div className="page2canada border">
-        <div className="page2canadahead">Top Courses in Canada</div>
-        <div className="page2canadacontent ">
-          Canada is celebrated for its exceptional education system, offering
-          diverse courses across undergraduate, graduate, and post-graduate
-          levels. Canadian universities also provide certificate and diploma
-          programs. Undergraduates can pursue Bachelor's or Associate's degrees,
-          typically completed in 3 to 4 years. Graduate options include Master's
-          and Doctoral programs spanning 2 to 6 years, alongside post-graduate
-          diplomas lasting 1 to 2 years. Emphasizing hands-on learning, these
-          programs equip students with practical insights and valuable academic
-          expertise in their respective fields. For more reasons to study in
-          Canada, see below. <br />
-          <br />
-          1. <span className="bold">Computer Science</span>
-          <br />
-          2. <span className="bold">Business </span>
-          <br />
-          3. <span className="bold"> Engineering</span>
-          <br />
-          4. <span className="bold"> Health Sciences</span>
-          <br />
-          5. <span className="bold">Physiotherapy </span>
-          <br />
-          6. <span className="bold">Information Technology</span>
-          <br />
-          7. <span className="bold">Animation and Gaming</span>
-          <br />
-          8. <span className="bold"> Hospitality Management</span>
-          <br />
-          9. <span className="bold"> International Business Management</span>
-          <br />
-          10. <span className="bold">Master of Business Administration</span>
-          <br />
-        </div>
+        <div className="page2canadahead">{canadaData.canadapage4heading}</div>
+        <div
+          className="page2canadacontent "
+          dangerouslySetInnerHTML={{ __html: canadaData.canadapage4content }}
+        ></div>
       </div>
       <div className="page2canada white">
         <div className="page2canadahead">Best Universities in Canada</div>
@@ -225,34 +147,11 @@ export default function Canada({ canadaData, homeData }) {
         </div>
       </div>
       <div className="page2canada border">
-        <div className="page2canadahead">
-          Visa Requirements for International Students
-        </div>
-        <div className="page2canadacontent ">
-          International students planning to study in Canada require a study
-          permit, a crucial immigration document that validates their stay in
-          the country alongside a visitor visa or Electronic Travel
-          Authorization (eTA). This permit is essential for Indian students as
-          it grants permission to study at Designated Learning Institutions
-          (DLIs) in Canada. <br />
-          <br />
-          It's important to note that a study permit is distinct from a visa. A
-          student visa is required for entry into Canada. To apply for a
-          Canadian Student Visa, it is recommended to initiate the process 4 to
-          6 months before the start of classes, upon receiving an Admission
-          Offer from a Canadian DLI. Applications can be made online through the
-          Government of Canada Key (GCKey) portal, at a Visa Application Centre
-          (VAC), or directly at the port of entry. The application fee for a
-          Canadian Student Visa is $150 CAD, which includes a $85 CAD biometrics
-          fee and a $45 CAD service fee. <br />
-          <br />
-          Processing time for a study visa typically ranges from 4 to 8 weeks.
-          For expedited processing, the Student Direct Stream (SDS) option
-          completes the process in just 20 days. Indian students eligible for
-          SDS can apply by submitting the required documents for their student
-          visa application.
-          <br />
-        </div>
+        <div className="page2canadahead">{canadaData.canadapage6heading}</div>
+        <div
+          className="page2canadacontent "
+          dangerouslySetInnerHTML={{ __html: canadaData.canadapage6content }}
+        ></div>
       </div>
       <div className="page2canada white">
         <div className="page2canadahead">Scholarships Available for Canada</div>

@@ -3,7 +3,7 @@ import Page2alt from '../pages/page2alt';
 import Page8 from '../pages/page8';
 import { useEffect } from 'react';
 
-export default function TOEFL() {
+export default function TOEFL({ homeData, toeflData }) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -16,153 +16,47 @@ export default function TOEFL() {
             alt="TOEFL Logo"
             className="canadaflagsubpage"
           />
-          <div className="underhead">
-            Unlock Global Opportunities with the TOEFL Exam
-          </div>
-          <div className="summarysubpage">
-            Expert Guidance to Excel in TOEFL: Personalized coaching, practice
-            tests, and comprehensive study plans to ensure your success.
-          </div>
+          <div className="underhead">{toeflData.Toeflpage1heading}</div>
+          <div
+            className="summarysubpage"
+            dangerouslySetInnerHTML={{ __html: toeflData.Toeflpage1content }}
+          ></div>
           <div className="enquirybutton">Send Enquiry</div>
         </div>
       </div>
 
       <div className="page2canada">
-        <div className="page2canadahead">TOEFL Overview</div>
-        <div className="page2canadacontent">
-          <span className="bold">
-            The Test of English as a Foreign Language (TOEFL)
-          </span>{' '}
-          is a widely recognized exam for international students and
-          professionals seeking admission to universities and employment
-          opportunities in{' '}
-          <span className="bold"> English-speaking countries</span>. It is
-          accepted by universities in the United States, Canada, the United
-          Kingdom, Australia, and many other countries worldwide. TOEFL assesses
-          proficiency in Listening, Reading, Writing, and Speaking, and is
-          available in both paper-based and internet-based formats. <br />
-          <br />
-          TOEFL scores are crucial for admissions and visa applications,
-          ensuring candidates meet the required English language standards for
-          academic success and professional advancement.
-        </div>
+        <div className="page2canadahead">{toeflData.Toeflpage2heading}</div>
+        <div
+          className="page2canadacontent"
+          dangerouslySetInnerHTML={{ __html: toeflData.Toeflpage2content }}
+        ></div>
       </div>
 
       <div className="page2canada border">
-        <div className="page2canadahead">Why Is TOEFL Coaching Beneficial?</div>
-        <div className="page2canadacontent">
-          TOEFL coaching offers significant advantages for candidates aiming to
-          excel in the exam. For the{' '}
-          <span className="bold">
-            {' '}
-            Reading section, coaching enhances comprehension skills, ability to
-            analyze academic texts, and vocabulary.
-          </span>{' '}
-          In the{' '}
-          <span className="bold">
-            {' '}
-            Listening section, students improve their ability to understand
-            lectures and conversations, note-taking skills, and question
-            analysis.
-          </span>{' '}
-          Writing coaching{' '}
-          <span className="bold">
-            {' '}
-            focuses on grammar, sentence structure, coherence, and
-            argumentation, ensuring well-structured and coherent essays.
-          </span>{' '}
-          In the{' '}
-          <span className="bold">
-            {' '}
-            Speaking section, coaching enhances fluency, pronunciation,
-            vocabulary usage, and confidence in expressing ideas clearly and
-            effectively.
-          </span>{' '}
-          With tailored coaching, candidates can significantly enhance their
-          performance and achieve their target scores in the TOEFL exam.
-        </div>
+        <div className="page2canadahead">{toeflData.Toeflpage3heading}</div>
+        <div
+          className="page2canadacontent"
+          dangerouslySetInnerHTML={{ __html: toeflData.Toeflpage3content }}
+        ></div>
       </div>
 
-      <Page2alt />
+      <Page2alt homeData={homeData} />
 
       <div className="page2canada white">
-        <div className="page2canadahead">
-          Top Features of TOEFL at Gateway INC
-        </div>
-        <div className="page2canadacontent">
-          Discover our key features:
-          <br />
-          <br />
-          1. <span className="bold">Expert Tutors: </span>
-          Our tutors are highly trained to deliver effective study sessions.
-          <br />
-          <br />
-          2. <span className="bold">Comprehensive Material: </span>
-          We have a library  full of resources where students can practice, and
-          we also issue books to practice at home.
-          <br />
-          <br />
-          3. <span className="bold">Supportive Environment: </span>
-          Only 10 students per batch for maximum attention.
-          <br />
-          <br />
-          4. <span className="bold">Practice and Mock Tests: </span>
-          We conduct regular module tests as well as full mock tests to prepare
-          students effectively and student them learn time management.
-          <br />
-          <br />
-          5. <span className="bold">Audio Visual class room : </span>
-          Visions for better understanding.
-          <br />
-          <br />
-          6. <span className="bold">Mock Exams:</span> Prepare effectively with
-          full-length practice tests.
-          <br />
-          <br />
-        </div>
+        <div className="page2canadahead">{toeflData.Toeflpage4heading}</div>
+        <div
+          className="page2canadacontent"
+          dangerouslySetInnerHTML={{ __html: toeflData.Toeflpage4content }}
+        ></div>
       </div>
 
       <div className="page2canada border">
-        <div className="page2canadahead">
-          Top Countries Using TOEFL as the Entrance Exam
-        </div>
-        <div className="page2canadacontent">
-          The TOEFL exam is widely accepted by universities and institutions
-          globally for admissions and professional registrations. Here are some
-          top countries where TOEFL scores are essential:
-          <br />
-          <br />
-          1. <span className="bold">United States:</span> Many U.S. universities
-          require TOEFL scores for admission, ensuring English proficiency for
-          academic success.
-          <br />
-          <br />
-          2. <span className="bold">Canada:</span> Canadian universities use
-          TOEFL scores to evaluate English language skills for undergraduate and
-          graduate programs.
-          <br />
-          <br />
-          3. <span className="bold">United Kingdom:</span> UK institutions
-          accept TOEFL scores as part of their admissions criteria for
-          international students.
-          <br />
-          <br />
-          4. <span className="bold">Australia:</span> TOEFL scores are widely
-          recognized for academic admissions in Australian universities and
-          colleges.
-          <br />
-          <br />
-          5. <span className="bold">New Zealand:</span> Institutions in New
-          Zealand use TOEFL scores for evaluating language proficiency in
-          academic settings.
-          <br />
-          <br />
-          6. <span className="bold">Singapore:</span> Many universities in
-          Singapore accept TOEFL scores for admission to undergraduate and
-          graduate programs.
-          <br />
-          <br />
-        </div>
+        <div className="page2canadahead">{toeflData.Toeflpage5heading}</div>
+        <div
+          className="page2canadacontent"
+          dangerouslySetInnerHTML={{ __html: toeflData.Toeflpage5content }}
+        ></div>
       </div>
 
       <div className="page2canada white">
@@ -235,7 +129,7 @@ export default function TOEFL() {
         </div>
       </div>
 
-      <Page8 />
+      <Page8 homeData={homeData} />
     </div>
   );
 }

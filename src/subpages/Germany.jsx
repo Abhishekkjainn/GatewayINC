@@ -3,7 +3,7 @@ import Page8 from '../pages/page8';
 import '../subpages.css';
 import { useEffect } from 'react';
 
-export default function Germany() {
+export default function Germany({ homeData, germanyData }) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -16,137 +16,41 @@ export default function Germany() {
             alt="Germany"
             className="canadaflagsubpage"
           />
-          <div className="underhead">
-            Embark on an Educational Journey in Germany!
-          </div>
+          <div className="underhead">{germanyData.Germanypage1heading}</div>
           <div className="summarysubpage">
-            Our experts facilitate your pathway to studying in Germany with
-            comprehensive guidance and support at every stage, ensuring a smooth
-            transition.
+            {germanyData.Germanypage1subheading}
           </div>
           <div className="enquirybutton">Send Enquiry</div>
         </div>
       </div>
       <div className="page2canada">
-        <div className="page2canadahead">Study In Germany</div>
-        <div className="page2canadacontent">
-          Studying in Germany offers a vibrant academic experience for
-          international students, featuring top universities known for their
-          rigorous academic standards and cutting-edge research. The education
-          system emphasizes critical thinking, innovation, and practical
-          application, preparing students for successful careers in a global
-          market. <br />
-          <br /> With a rich cultural heritage, diverse student life, and
-          picturesque landscapes, students enjoy a balanced lifestyle in
-          Germany. The country also boasts strong industry ties, internship
-          opportunities, and post-study work options that enhance career
-          prospects. <br />
-          <br /> Extensive support services, including academic guidance and
-          career counseling, ensure a supportive environment. Studying in
-          Germany opens doors to global opportunities, offering a solid
-          foundation for a successful future in a multicultural society. Embark
-          on an extraordinary educational journey and explore the best of what
-          Germany has to offer!
-        </div>
+        <div className="page2canadahead">{germanyData.Germanypage2heading}</div>
+        <div
+          className="page2canadacontent"
+          dangerouslySetInnerHTML={{ __html: germanyData.Germanypage2content }}
+        ></div>
       </div>
       <div className="page2canada border">
-        <div className="page2canadahead">Why Choose Germany?</div>
-        <div className="page2canadacontent">
-          Opting to study in Germany provides numerous advantages, making it a
-          preferred destination for international students. The country hosts
-          world-renowned universities that prioritize academic excellence,
-          innovation, and practical skills. With an inclusive community,
-          students from diverse backgrounds feel welcomed, enjoying a vibrant
-          campus life enriched with cultural events and extracurricular
-          activities. <br />
-          <br /> Germany's scenic landscapes and outdoor activities further
-          enhance the overall experience. Moreover, strong industry connections,
-          internships, and favorable post-study work regulations significantly
-          boost employability. Comprehensive support services ensure students
-          can focus on academic and personal growth, making Germany a gateway to
-          global opportunities and a promising future.
-        </div>
+        <div className="page2canadahead">{germanyData.Germanypage3heading}</div>
+        <div
+          className="page2canadacontent"
+          dangerouslySetInnerHTML={{ __html: germanyData.Germanypage3content }}
+        ></div>
       </div>
-      <Page2alt />
+      <Page2alt homeData={homeData} />
       <div className="page2canada white">
-        <div className="page2canadahead">
-          Top 5 Benefits of Studying in Germany
-        </div>
-        <div className="page2canadacontent ">
-          Germany offers diverse higher education opportunities for
-          international students, including over 400 universities, comprising
-          public, private, and technical universities. These institutions offer
-          a wide range of programs, including undergraduate degrees,
-          postgraduate courses (available online, hybrid, and offline),
-          vocational training, professional exams, certificates, and English
-          language programs. Indian students can enroll in German education
-          after completing the 12th standard. For more reasons to study in
-          Germany, see below. <br />
-          <br />
-          1. <span className="bold">World-Class Education:</span> Germany is
-          home to some of the world's top universities renowned for their
-          academic excellence, research, and emphasis on critical thinking and
-          practical skills, ensuring globally recognized education. <br />{' '}
-          <br />
-          2. <span className="bold">Multicultural Environment:</span> With a
-          welcoming and inclusive atmosphere, international students find a
-          diverse community that enriches their cultural experience and provides
-          opportunities to build global networks. <br /> <br />
-          3. <span className="bold">Vibrant Student Life: </span> German
-          universities offer vibrant campus life with a wide range of
-          extracurricular activities, including sports, arts, clubs, and
-          cultural events. The country's natural landscapes and outdoor
-          lifestyle offer endless opportunities for exploration and adventure.{' '}
-          <br /> <br />
-          4. <span className="bold">Top Universities: </span> Germany's
-          universities consistently rank among the best globally, with several
-          institutions placed in top positions by QS and THE Rankings. They
-          offer access to international research networks and excellent career
-          prospects. <br /> <br />
-          5. <span className="bold">Comprehensive Support Services:</span>{' '}
-          German universities provide extensive support services, including
-          academic support, career counseling, health and wellness programs, and
-          accommodation assistance, creating a supportive environment for
-          international students to adapt, thrive, and excel in their studies
-          and personal development. <br /> <br />
-        </div>
+        <div className="page2canadahead">{germanyData.Germanypage4heading}</div>
+        <div
+          className="page2canadacontent "
+          dangerouslySetInnerHTML={{ __html: germanyData.Germanypage4content }}
+        ></div>
       </div>
       <div className="page2canada border">
-        <div className="page2canadahead">Top Courses in Germany</div>
-        <div className="page2canadacontent ">
-          Germany is renowned for its outstanding education system, offering a
-          diverse range of courses across undergraduate, graduate, and
-          postgraduate levels. German universities also provide certificate and
-          diploma programs. Undergraduates can pursue Bachelor's degrees,
-          typically completed in 3 to 4 years. Graduate options include Master's
-          programs spanning 1 to 2 years and Doctoral programs lasting 3 to 4
-          years, alongside postgraduate diplomas and certificates that usually
-          take 6 months to 2 years to complete. These programs focus on
-          practical learning, providing students with valuable academic
-          expertise in their respective fields. For more reasons to study in
-          Germany, see below. <br />
-          <br />
-          1. <span className="bold">Computer Science</span>
-          <br />
-          2. <span className="bold">Business </span>
-          <br />
-          3. <span className="bold"> Engineering</span>
-          <br />
-          4. <span className="bold"> Health Sciences</span>
-          <br />
-          5. <span className="bold">Physiotherapy </span>
-          <br />
-          6. <span className="bold">Information Technology</span>
-          <br />
-          7. <span className="bold">Animation and Gaming</span>
-          <br />
-          8. <span className="bold"> Hospitality Management</span>
-          <br />
-          9. <span className="bold"> International Business Management</span>
-          <br />
-          10. <span className="bold">Master of Business Administration</span>
-          <br />
-        </div>
+        <div className="page2canadahead">{germanyData.Germanypage5heading}</div>
+        <div
+          className="page2canadacontent "
+          dangerouslySetInnerHTML={{ __html: germanyData.Germanypage5content }}
+        ></div>
       </div>
       <div className="page2canada white">
         <div className="page2canadahead">Best Universities in Germany</div>
@@ -242,42 +146,11 @@ export default function Germany() {
         </div>
       </div>
       <div className="page2canada border">
-        <div className="page2canadahead">
-          Visa Requirements for International Students
-        </div>
-        <div className="page2canadacontent ">
-          International students planning to study in Germany require a Student
-          Visa (Visum zu Studienzwecken), which is essential for staying and
-          studying in the country. This visa is crucial for Indian students
-          attending courses at recognized German educational institutions.
-          <br />
-          <br />
-          It's important to distinguish the Student Visa from a tourist visa or
-          a Schengen Visa, which may also be necessary depending on the
-          student's nationality. To apply for a German Student Visa, it is
-          recommended to initiate the process well in advance, ideally 3 to 4
-          months before the intended start of the course, upon receiving an
-          admission letter (Zulassungsbescheid) from a German university.
-          <br />
-          <br />
-          Visa applications can typically be submitted online or at the
-          respective German consulate or embassy. The application fee for a
-          German Student Visa varies by country but generally ranges around EUR
-          75 to EUR 80. Biometric data (fingerprints and photographs) may also
-          be required during the application process.
-          <br />
-          <br />
-          Processing times for the Student Visa vary but usually take between 4
-          to 12 weeks. Students from certain countries may benefit from
-          streamlined visa processing, which expedites the application process.
-          <br />
-          <br />
-          Understanding and fulfilling these visa requirements ensures a smooth
-          transition for Indian students planning to study in Germany, providing
-          them with the necessary permissions to pursue their educational
-          aspirations in a supportive academic environment.
-          <br />
-        </div>
+        <div className="page2canadahead">{germanyData.Germanypage5heading}</div>
+        <div
+          className="page2canadacontent "
+          dangerouslySetInnerHTML={{ __html: germanyData.Germanypage7content }}
+        ></div>
       </div>
       <div className="page2canada white">
         <div className="page2canadahead">
@@ -421,7 +294,7 @@ export default function Germany() {
         </div>
       </div>
 
-      <Page8 />
+      <Page8 homeData={homeData} />
     </div>
   );
 }

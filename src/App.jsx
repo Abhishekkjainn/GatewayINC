@@ -28,7 +28,16 @@ import { firestore } from './firebase';
 
 function App() {
   const [homeData, setHomeData] = useState({});
-  const [canadaData, setCanadaData] = useState({}); // data object to store fetched data
+  const [canadaData, setCanadaData] = useState({});
+  const [usaData, setUsaData] = useState({}); // data object to store fetched data
+  const [ukData, setUkData] = useState({});
+  const [australiaData, setAustraliaData] = useState({});
+  const [germanyData, setGermanyData] = useState({});
+  const [irelandData, setIrelandData] = useState({});
+  const [ieltsData, setIeltsData] = useState({});
+  const [toeflData, setToeflData] = useState({});
+  const [pteData, setPteData] = useState({});
+  const [serviceData, setServiceData] = useState({});
 
   useEffect(() => {
     const fetchData = async () => {
@@ -41,6 +50,33 @@ function App() {
         }
         if (doc.id === 'Canadapage') {
           setCanadaData(doc.data()); // Set the data for Homepage
+        }
+        if (doc.id === 'Usapage') {
+          setUsaData(doc.data()); // Set the data for Homepage
+        }
+        if (doc.id === 'Ukpage') {
+          setUkData(doc.data()); // Set the data for Homepage
+        }
+        if (doc.id === 'Australiapage') {
+          setAustraliaData(doc.data()); // Set the data for Homepage
+        }
+        if (doc.id === 'Germanypage') {
+          setGermanyData(doc.data()); // Set the data for Homepage
+        }
+        if (doc.id === 'Irelandpage') {
+          setIrelandData(doc.data()); // Set the data for Homepage
+        }
+        if (doc.id === 'Ieltspage') {
+          setIeltsData(doc.data()); // Set the data for Homepage
+        }
+        if (doc.id === 'Toeflpage') {
+          setToeflData(doc.data()); // Set the data for Homepage
+        }
+        if (doc.id === 'Ptepage') {
+          setPteData(doc.data()); // Set the data for Homepage
+        }
+        if (doc.id === 'Servicepage') {
+          setServiceData(doc.data()); // Set the data for Homepage
         }
       });
     };
@@ -58,21 +94,71 @@ function App() {
           path="/canada"
           element={<Canada canadaData={canadaData} homeData={homeData} />}
         />
-        <Route path="/usa" element={<USApage />} />
-        <Route path="/uk" element={<UK />} />
-        <Route path="/australia" element={<Australia />} />
-        <Route path="/germany" element={<Germany />} />
-        <Route path="/ireland" element={<Ireland />} />
-        <Route path="/ielts" element={<IELTS />} />
-        <Route path="/toefl" element={<TOEFL />} />
-        <Route path="/pte" element={<PET />} />
+        <Route
+          path="/usa"
+          element={<USApage homeData={homeData} usaData={usaData} />}
+        />
+        <Route
+          path="/uk"
+          element={<UK homeData={homeData} ukData={ukData} />}
+        />
+        <Route
+          path="/australia"
+          element={
+            <Australia homeData={homeData} australiaData={australiaData} />
+          }
+        />
+        <Route
+          path="/germany"
+          element={<Germany homeData={homeData} germanyData={germanyData} />}
+        />
+        <Route
+          path="/ireland"
+          element={<Ireland homeData={homeData} irelandData={irelandData} />}
+        />
+        <Route
+          path="/ielts"
+          element={<IELTS homeData={homeData} ieltsData={ieltsData} />}
+        />
+        <Route
+          path="/toefl"
+          element={<TOEFL homeData={homeData} toeflData={toeflData} />}
+        />
+        <Route
+          path="/pte"
+          element={<PET homeData={homeData} pteData={pteData} />}
+        />
         <Route path="/check-your-eligibility" element={<Eligibility />} />
-        <Route path="/SOP-LOR-Writing" element={<SOPLOR />} />
-        <Route path="/accomodation" element={<Accomodation />} />
-        <Route path="/forex" element={<ForexServices />} />
-        <Route path="/visa" element={<Visa />} />
-        <Route path="/air-tickets" element={<AirTickets />} />
-        <Route path="/education-loan" element={<EducationLoan />} />
+        <Route
+          path="/SOP-LOR-Writing"
+          element={<SOPLOR homeData={homeData} serviceData={serviceData} />}
+        />
+        <Route
+          path="/accomodation"
+          element={
+            <Accomodation homeData={homeData} serviceData={serviceData} />
+          }
+        />
+        <Route
+          path="/forex"
+          element={
+            <ForexServices homeData={homeData} serviceData={serviceData} />
+          }
+        />
+        <Route
+          path="/visa"
+          element={<Visa homeData={homeData} serviceData={serviceData} />}
+        />
+        <Route
+          path="/air-tickets"
+          element={<AirTickets homeData={homeData} serviceData={serviceData} />}
+        />
+        <Route
+          path="/education-loan"
+          element={
+            <EducationLoan homeData={homeData} serviceData={serviceData} />
+          }
+        />
       </Routes>
       <Page9 />
     </Router>

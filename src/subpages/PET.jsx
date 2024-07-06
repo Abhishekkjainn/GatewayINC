@@ -3,7 +3,7 @@ import Page2alt from '../pages/page2alt';
 import Page8 from '../pages/page8';
 import { useEffect } from 'react';
 
-export default function PET() {
+export default function PET({ homeData, pteData }) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -12,146 +12,47 @@ export default function PET() {
       <div className="page1canada page1PET">
         <div className="mainheadcanada">
           <img src="ptelogo.png" alt="PTE Logo" className="canadaflagsubpage" />
-          <div className="underhead">
-            Unlock Global Opportunities with the PTE Exam
-          </div>
-          <div className="summarysubpage">
-            Expert Guidance to Excel in PTE: Personalized coaching, practice
-            tests, and comprehensive study plans to ensure your success.
-          </div>
+          <div className="underhead">{pteData.Ptepage1heading}</div>
+          <div
+            className="summarysubpage"
+            dangerouslySetInnerHTML={{ __html: pteData.Ptepage1content }}
+          ></div>
           <div className="enquirybutton">Send Enquiry</div>
         </div>
       </div>
 
       <div className="page2canada">
-        <div className="page2canadahead">PTE Overview</div>
-        <div className="page2canadacontent">
-          <span className="bold">The Pearson Test of English (PTE)</span> is a
-          widely recognized exam for international students and professionals
-          seeking admission to universities and employment opportunities in{' '}
-          <span className="bold"> English-speaking countries</span>. It is
-          accepted by universities in the United States, Canada, the United
-          Kingdom, Australia, and many other countries worldwide. PTE assesses
-          proficiency in Listening, Reading, Writing, and Speaking, and is
-          available in a computer-based format. <br />
-          <br />
-          PTE scores are crucial for admissions and visa applications, ensuring
-          candidates meet the required English language standards for academic
-          success and professional advancement.
-        </div>
+        <div className="page2canadahead">{pteData.Ptepage2heading}</div>
+        <div
+          className="page2canadacontent"
+          dangerouslySetInnerHTML={{ __html: pteData.Ptepage2content }}
+        ></div>
       </div>
 
       <div className="page2canada border">
-        <div className="page2canadahead">Why Is PTE Coaching Beneficial?</div>
-        <div className="page2canadacontent">
-          PTE coaching offers significant advantages for candidates aiming to
-          excel in the exam. For the{' '}
-          <span className="bold">
-            Reading section, coaching enhances comprehension skills, ability to
-            analyze academic texts, and vocabulary.
-          </span>{' '}
-          In the{' '}
-          <span className="bold">
-            Listening section, students improve their ability to understand
-            lectures and conversations, note-taking skills, and question
-            analysis.
-          </span>{' '}
-          Writing coaching{' '}
-          <span className="bold">
-            focuses on grammar, sentence structure, coherence, and
-            argumentation, ensuring well-structured and coherent essays.
-          </span>{' '}
-          In the{' '}
-          <span className="bold">
-            Speaking section, coaching enhances fluency, pronunciation,
-            vocabulary usage, and confidence in expressing ideas clearly and
-            effectively.
-          </span>{' '}
-          With tailored coaching, candidates can significantly enhance their
-          performance and achieve their target scores in the PTE exam.
-        </div>
+        <div className="page2canadahead">{pteData.Ptepage3heading}</div>
+        <div
+          className="page2canadacontent"
+          dangerouslySetInnerHTML={{ __html: pteData.Ptepage3content }}
+        ></div>
       </div>
 
-      <Page2alt />
+      <Page2alt homeData={homeData} />
 
       <div className="page2canada white">
-        <div className="page2canadahead">
-          Top Features of PTE at Gateway INC
-        </div>
-        <div className="page2canadacontent">
-          Discover our key features:
-          <br />
-          <br />
-          1. <span className="bold">Expert Tutors: </span>
-          Our tutors are highly trained to deliver effective study sessions.
-          <br />
-          <br />
-          2. <span className="bold">Comprehensive Material: </span>
-          We have a library  full of resources where students can practice, and
-          we also issue books to practice at home.
-          <br />
-          <br />
-          3. <span className="bold">Supportive Environment: </span>
-          Only 10 students per batch for maximum attention.
-          <br />
-          <br />
-          4. <span className="bold">Practice and Mock Tests: </span>
-          We conduct regular module tests as well as full mock tests to prepare
-          students effectively and student them learn time management.
-          <br />
-          <br />
-          5. <span className="bold">Audio Visual class room : </span>
-          Visions for better understanding.
-          <br />
-          <br />
-          6. <span className="bold">Mock Exams:</span> Prepare effectively with
-          full-length practice tests.
-          <br />
-          <br />
-        </div>
+        <div className="page2canadahead">{pteData.Ptepage4heading}</div>
+        <div
+          className="page2canadacontent"
+          dangerouslySetInnerHTML={{ __html: pteData.Ptepage4content }}
+        ></div>
       </div>
 
       <div className="page2canada border">
-        <div className="page2canadahead">
-          Top Countries Using PTE as the Entrance Exam
-        </div>
-        <div className="page2canadacontent">
-          The PTE exam is widely accepted by universities and institutions
-          globally for admissions and professional registrations. Here are some
-          top countries where PTE scores are essential:
-          <br />
-          <br />
-          1. <span className="bold">United States:</span> Many U.S. universities
-          require PTE scores for admission, ensuring English proficiency for
-          academic success.
-          <br />
-          <br />
-          2. <span className="bold">Canada:</span> Canadian universities use PTE
-          scores to evaluate English language skills for undergraduate and
-          graduate programs.
-          <br />
-          <br />
-          3. <span className="bold">United Kingdom:</span> UK institutions
-          accept PTE scores as part of their admissions criteria for
-          international students.
-          <br />
-          <br />
-          4. <span className="bold">Australia:</span> PTE scores are widely
-          recognized for academic admissions in Australian universities and
-          colleges.
-          <br />
-          <br />
-          5. <span className="bold">New Zealand:</span> Institutions in New
-          Zealand use PTE scores for evaluating language proficiency in academic
-          settings.
-          <br />
-          <br />
-          6. <span className="bold">Singapore:</span> Many universities in
-          Singapore accept PTE scores for admission to undergraduate and
-          graduate programs.
-          <br />
-          <br />
-        </div>
+        <div className="page2canadahead">{pteData.Ptepage5heading}</div>
+        <div
+          className="page2canadacontent"
+          dangerouslySetInnerHTML={{ __html: pteData.Ptepage5content }}
+        ></div>
       </div>
 
       <div className="page2canada white">
@@ -224,7 +125,7 @@ export default function PET() {
         </div>
       </div>
 
-      <Page8 />
+      <Page8 homeData={homeData} />
     </div>
   );
 }
