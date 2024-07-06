@@ -1,11 +1,9 @@
 import { BrowserRouter as Router, Link } from 'react-router-dom';
-export default function Page4() {
+export default function Page4({ homeData }) {
   return (
     <div className="page4">
-      <div className="page4heading">Select Your Dream Destination</div>
-      <div className="page4subheading">
-        We've partnered with 600+ institutions worldwide.
-      </div>
+      <div className="page4heading">{homeData.page4heading}</div>
+      <div className="page4subheading">{homeData.page4subheading}</div>
       <div className="countriespage4div">
         <div className="pg4countrydiv canadacountrydiv">
           <div className="topportion"></div>
@@ -14,12 +12,7 @@ export default function Page4() {
               <div className="flagcard canadaflagcard"></div>
               Canada
             </div>
-            <div className="middlecardcontent">
-              Studying in Canada provides top-tier education, a multicultural
-              environment, post-graduation work opportunities, and breathtaking
-              natural scenery, making it a premier destination for students
-              worldwide.
-            </div>
+            <div className="middlecardcontent">{homeData.canadabannerdesc}</div>
           </div>
           <div className="bottomportion">
             <Link className="linkstyle viewdetailsbutton" to={'/canada'}>
@@ -34,11 +27,7 @@ export default function Page4() {
               <div className="flagcard ukflagcard"></div>
               UK
             </div>
-            <div className="middlecardcontent">
-              Studying in the UK offers a prestigious education system, diverse
-              cultural experiences, and strong industry connections, all in a
-              historic and dynamic setting.
-            </div>
+            <div className="middlecardcontent">{homeData.ukbannerdesc}</div>
           </div>
           <div className="bottomportion">
             <Link to={'/uk'} className=" linkstyle viewdetailsbutton">
@@ -54,9 +43,7 @@ export default function Page4() {
               Australia
             </div>
             <div className="middlecardcontent">
-              Studying in Australia means top-notch education, multicultural
-              experiences, and breathtaking landscapes, making it an enriching
-              academic choice.
+              {homeData.australiabannerdesc}
             </div>
           </div>
           <div className="bottomportion">
@@ -72,12 +59,7 @@ export default function Page4() {
               <div className="flagcard usaflagcard"></div>
               USA
             </div>
-            <div className="middlecardcontent">
-              Studying in the USA provides world-class education, diverse
-              cultural experiences, and strong career opportunities through
-              internships and networking. Flexible academic programs allow for
-              personalized education paths.
-            </div>
+            <div className="middlecardcontent">{homeData.usabannerdesc}</div>
           </div>
           <div className="bottomportion">
             <Link to={'/usa'} className="linkstyle viewdetailsbutton">
@@ -93,10 +75,7 @@ export default function Page4() {
               Germany
             </div>
             <div className="middlecardcontent">
-              Studying in Germany offers high-quality, low-cost education,
-              diverse cultural experiences, and strong career opportunities
-              through internships and industry connections. Many programs are
-              available in English.
+              {homeData.germanybannerdesc}
             </div>
           </div>
           <div className="bottomportion">
@@ -113,10 +92,7 @@ export default function Page4() {
               Ireland
             </div>
             <div className="middlecardcontent">
-              Studying in Ireland offers high-quality education, a vibrant
-              cultural experience, and strong industry connections. The country
-              provides numerous English-taught programs and excellent career
-              opportunities through internships.
+              {homeData.irelandbannerdesc}
             </div>
           </div>
           <div className="bottomportion">

@@ -1,4 +1,4 @@
-export default function Page9() {
+export default function Page9({ homeData }) {
   return (
     <div className="page9">
       <div className="companyheadfooter">

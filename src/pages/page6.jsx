@@ -1,10 +1,8 @@
-export default function Page6() {
+export default function Page6({ homeData }) {
   return (
     <div className="page6">
-      <div className="page6heading">Value Added Services</div>
-      <div className="subheadpage6">
-        Comprehensive Study Abroad Planning with our Services
-      </div>
+      <div className="page6heading">{homeData.page6heading}</div>
+      <div className="subheadpage6">{homeData.page6subheading}</div>
       <div className="servicedivpage6">
         <div className="servicecard">
           <div className="circleservicelogo">

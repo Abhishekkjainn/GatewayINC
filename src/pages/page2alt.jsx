@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-export default function Page2alt() {
+export default function Page2alt({ homeData }) {
   return (
     <div className="page2alt">
       <div className="page2altbanner">
         <div className="contentpage2altbanner">
           <div className="page2altbannerheading">
-            Check Your Eligibility For Admission
+            {homeData.page2altheading}
           </div>
           <div className="page2altbannersubheading">
-            Find Programs Aligned with Your Eligibility from a Vast Selection
+            {homeData.page2altsubheading}
           </div>
         </div>
         <Link

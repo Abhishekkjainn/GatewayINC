@@ -52,6 +52,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 12px;
+  text-decoration: none;
 }
 .mainlogo{
   width: 120px;
@@ -174,6 +176,8 @@ body{
   align-items: center;
   gap: 0.8em;
   font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
 }
 
 .actionbutton .arrow-wrapper {

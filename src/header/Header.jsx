@@ -321,12 +321,12 @@ export default function Header() {
         </Link>
       </div>
       <div className="actionbuttondiv">
-        <button className="actionbutton">
+        <a href="tel:+917874709526" className="actionbutton">
           +91 7874709526
           <div className="arrow-wrapper">
             <div className="arrow"></div>
           </div>
-        </button>
+        </a>
       </div>
 
       <div className="menurespbutton">

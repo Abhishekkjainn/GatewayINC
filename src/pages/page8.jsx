@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-export default function Page8() {
+export default function Page8({ homeData }) {
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [phone, setPhone] = useState('');
@@ -70,11 +70,9 @@ export default function Page8() {
         </div>
         <div className="consultform">
           <div className="smallheading">
-            <div className="circleconsult"></div> Consult Experts
+            <div className="circleconsult"></div> {homeData.page8smallheading}
           </div>
-          <div className="headingconsult">
-            Uncertain about what you need? Provide your details for a call-back.
-          </div>
+          <div className="headingconsult">{homeData.page8heading}</div>
           <div className="formdiv">
             <div className="namediv">
               <div className="firstname">
